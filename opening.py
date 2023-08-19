@@ -44,12 +44,10 @@ def podzial_z_kliki(k):
 def sfre_z_klik(kliki):
     wynik = []
     for i, k in enumerate(kliki):
-        if i < 1000000:
-            (L, R) = podzial_z_kliki(k)
+        (L, R) = podzial_z_kliki(k)
 
-            wynik.append((L, R))
-        else:
-            break
+        wynik.append((L, R))
+       
     return wynik
 
 def zbudujGraf(S):

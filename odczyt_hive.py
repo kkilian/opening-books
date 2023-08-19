@@ -15,19 +15,24 @@ def extract_words(logs, key):
 def odczyt(keys1, keys2, n=10000):
     pozytywne = set()
     negatywne = set()
+    neutralne = set()
+
     for key in keys1:
         words = extract_words(logs, key)
-        pozytywne.add(tuple(words[::4][:10]))  
+        pozytywne.add(tuple(words[::4][:6]))
     for key in keys2:
         words = extract_words(logs, key)
-        negatywne.add(tuple(words[2::4][:10])) 
+        negatywne.add(tuple(words[::4][:6]))
+
         
     koncowy = open('hive.txt', 'w')
-    for s in pozytywne:
+    neutralne = pozytywne & negatywne  # Calculate neutral states
+    print(neutralne)
+    for s in pozytywne - neutralne:
         print("1 10 %s" % ' '.join(s), file=koncowy)  
-    for s in negatywne:
+
+    for s in negatywne | neutralne:
         print("0 10 %s" % ' '.join(s), file=koncowy)  
-    koncowy.close()
     return pozytywne, negatywne
 
 if __name__ == "__main__":

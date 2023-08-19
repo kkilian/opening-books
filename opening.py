@@ -1,5 +1,6 @@
 import sys
 import networkx as nx
+from networkx.readwrite import json_graph
 import random
 from parse import parse
 from pipetools import pipe
@@ -92,19 +93,39 @@ def znajdz_kliki(G):
                 break
 
 
+def accepts(e, x):
+    for (p, s) in ((x[:i], x[i:]) for i in range(1, len(x))):
+        for (L, R) in e:
+            if p in L and s in R:
+                return True
+    return False
 
-def main():
-    lines = open("hive.txt", "r").readlines()
-    sfre = odczytajSlowa(lines)
-    G = zbudujGraf(sfre)
-    kliki = znajdz_kliki(G)
-    sfre_result = sfre_z_klik(kliki)
+def flatten(lst):
+    result = []
+    for item in lst:
+        if isinstance(item, list):
+            result.extend(flatten(item))
+        else:
+            result.append(item)
+    return result
 
-    timestamp = datetime.datetime.now().strftime("%H%M")
-    output_filename = f"sfre_hive_{timestamp}.json"
+random.seed()
 
-    with open(output_filename, 'w') as plik:
-        json.dump(list(map(lambda x: [list(x[0]), list(x[1])], sfre_result)), plik)
+sfre = odczytajSlowa(open("hive.txt", "r").readlines()) > (pipe
+    | zbudujGraf
+    | znajdz_kliki
+    | sfre_z_klik)
 
-if __name__ == "__main__":
-    main()
+# Convert the list of tuples into a NetworkX graph
+sfre_graph = nx.Graph()
+for (L, R) in sfre:
+    sfre_graph.add_nodes_from(L)
+    sfre_graph.add_nodes_from(R)
+    for u in L:
+        for v in R:
+            sfre_graph.add_edge(u, v)
+
+# Save the 'sfre' graph directly to JSON
+with open("sfre1.json", 'w') as plik:
+    sfre_graph_data = json_graph.node_link_data(sfre_graph)
+    json.dump(sfre_graph_data, plik)

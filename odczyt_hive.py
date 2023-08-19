@@ -19,6 +19,7 @@ def odczyt(keys1, keys2, n=10000):
 
     for key in keys1:
         words = extract_words(logs, key)
+        print(words)
         pozytywne.add(tuple(words[::4][:6]))
     for key in keys2:
         words = extract_words(logs, key)
@@ -27,12 +28,11 @@ def odczyt(keys1, keys2, n=10000):
         
     koncowy = open('hive.txt', 'w')
     neutralne = pozytywne & negatywne  # Calculate neutral states
-    print(neutralne)
     for s in pozytywne - neutralne:
-        print("1 10 %s" % ' '.join(s), file=koncowy)  
+        print("1 6 %s" % ' '.join(s), file=koncowy)  
 
     for s in negatywne | neutralne:
-        print("0 10 %s" % ' '.join(s), file=koncowy)  
+        print("0 6 %s" % ' '.join(s), file=koncowy)  
     return pozytywne, negatywne
 
 if __name__ == "__main__":

@@ -118,12 +118,13 @@ sfre = odczytajSlowa(open("hive.txt", "r").readlines()) > (pipe
 
 sfre_graph = nx.Graph()
 for (L, R) in sfre:
+    print((L,R))
     sfre_graph.add_nodes_from(L)
     sfre_graph.add_nodes_from(R)
     for u in L:
         for v in R:
             sfre_graph.add_edge(u, v)
 
-with open("sfre1.json", 'w') as plik:
+with open("sfre.json", 'w') as plik:
     sfre_graph_data = json_graph.node_link_data(sfre_graph)
     json.dump(sfre_graph_data, plik)

@@ -1,128 +1,125 @@
-1 6 wG1 wA1 wQ wA1 wA1 wA2
-1 6 wB1 wA1 wQ wA1 wA2 wA2
-1 6 wG1 wA1 wQ wA1 wA1 wS1
-1 6 wB1 wQ wA1 wA1 wA2 wA3
-1 6 wG1 wA1 wQ wS1 wA2 wA2
-1 6 wS1 wQ wA1 wA1 wS2 wA2
-1 6 wG1 wA1 wQ wS1 wA1 wS1
-1 6 wG1 wQ wS1 wS1 wB1 wB1
-1 6 wG1 wQ wS1 wA1 wS1 wA2
-1 6 wB1 wQ wA1 wA2 wA1 wS1
-1 6 wS1 wQ wA1 wA1 wB1 wB1
-1 6 wG1 wA1 wQ wA2 wA1 wB1
-1 6 wG1 wQ wS1 wS2 wS1 wB1
-1 6 wB1 wQ wS1 wS1 wB2 wA1
-1 6 wG1 wS1 wQ wS1 wA1 wA2
-1 6 wG1 wQ wA1 wA1 wS1 wG2
-1 6 wB1 wA1 wQ wA1 wS1 wQ
-1 6 wG1 wQ wA1 wG2 wA2 wA1
-1 6 wG1 wQ wA1 wG2 wA2 wA2
-1 6 wG1 wA1 wQ wA1 wB1 wS1
-1 6 wG1 wQ wA1 wA1 wS1 wA1
-1 6 wG1 wQ wS1 wS2 wS2 wA1
-1 6 wS1 wQ wA1 wA1 wS2 wB1
-1 6 wG1 wA1 wQ wS1 wA1 wS2
-1 6 wG1 wQ wS1 wS2 wS2 wS1
-1 6 wG1 wA1 wQ wA1 wS1 wQ
-1 6 wB1 wQ wA1 wA1 wB2 wB2
-1 6 wG1 wA1 wQ wA2 wA2 wG1
-1 6 wB1 wA1 wQ wA1 wB2 wA2
-1 6 wS1 wQ wS2 wS2 wB1 wG1
-1 6 wG1 wA1 wQ wA1 wG2 wS1
-1 6 wB1 wQ wQ wA1 wA1 wS1
-1 6 wG1 wQ wA1 wA1 wA1 wA2
-1 6 wG1 wA1 wQ wA1 wG2 wA2
-1 6 wS1 wQ wA1 wA1 wS2 wG1
-1 6 wB1 wA1 wQ wA1 wS1 wS1
-1 6 wG1 wQ wA1 wA2 wA1 wA3
-1 6 wG1 wQ wA1 wA2 wA1 wB1
-1 6 wG1 wG2 wQ wS1 wS1 wA1
-1 6 wG1 wA1 wQ wA2 wA1 wS1
-1 6 wG1 wQ wS1 wS2 wA1 wA1
-1 6 wG1 wA1 wQ wG2 wA1 wS1
-1 6 wG1 wA1 wQ wA2 wA2 wA1
-1 6 wG1 wA1 wQ wA1 wS1 wA1
-1 6 wS1 wA1 wQ wA1 wS2 wB1
-1 6 wS1 wA1 wQ wA1 wG1 wB1
-1 6 wG1 wQ wS1 wS1 wS2 wG2
-1 6 wG1 wQ wS1 wS2 wS2 wB1
-0 6 wG1 wQ wA1 wA1 wB1 wS1
-0 6 wB1 wQ wS1 wS1 wS2 wG1
-0 6 wG1 wQ wS1 wA1 wA1 wA1
-0 6 wG1 wA1 wQ wS1 wS1 wS2
-0 6 wG1 wA1 wQ wA2 wA1 wA3
-0 6 wG1 wQ wA1 wA1 wG2 wA2
-0 6 wB1 wA1 wQ wA1 wS1 wB2
-0 6 wB1 wQ wA1 wA2 wA2 wS1
-0 6 wS1 wQ wA1 wA1 wB1 wS2
-0 6 wB1 wA1 wQ wS1 wA1 wS1
-0 6 wS1 wQ wA1 wA1 wG1 wB1
-0 6 wG1 wA1 wQ wA1 wG2 wG2
-0 6 wG1 wA1 wQ wA1 wA2 wS1
-0 6 wG1 wQ wS1 wS1 wA1 wA1
-0 6 wS1 wQ wA1 wA1 wG1 wS2
-0 6 wG1 wA1 wQ wA1 wS1 wB1
-0 6 wG1 wQ wA1 wA1 wB1 wB1
-0 6 wB1 wQ wA1 wS1 wA1 wS1
-0 6 wG1 wQ wA1 wG2 wA1 wA2
-0 6 wS1 wQ wS2 wS2 wG1 wS2
-0 6 wS1 wG1 wQ wS2 wS2 wA1
-0 6 wB1 wA1 wQ wA2 wA3 wA3
-0 6 wB1 wA1 wQ wA2 wA2 wA1
-0 6 wG1 wA1 wQ wA1 wA2 wA3
-0 6 wG1 wA1 wQ wA1 wA2 wB1
-0 6 wG1 wA1 wQ wA1 wA1 wG2
-0 6 wG1 wQ wS1 wA1 wG2 wA2
-0 6 wG1 wA1 wQ wA1 wB1 wB1
-0 6 wG1 wQ wS1 wS1 wA1 wB1
-0 6 wS1 wA1 wQ wA1 wG1 wS2
-0 6 wG1 wQ wA1 wA1 wG2 wG2
-0 6 wG1 wQ wS1 wS1 wG2 wA1
-0 6 wG1 wA1 wQ wA1 wS1 wA2
-0 6 wS1 wA1 wQ wS2 wA2 wA2
-0 6 wG1 wS1 wA1 wQ wA2 wQ
-0 6 wG1 wQ wA1 wS1 wA2 wA2
-0 6 wG1 wQ wS1 wA1 wS1 wA1
-0 6 wG1 wQ wA1 wS1 wS1 wS2
-0 6 wG1 wQ wS1 wS1 wB1 wS2
-0 6 wG1 wQ wS1 wS1 wS2 wA1
-0 6 wG1 wA1 wQ wA1 wB1 wG2
-0 6 wB1 wA1 wQ wA1 wS1 wS2
-0 6 wG1 wQ wA1 wA1 wG2 wS1
-0 6 wG1 wA1 wQ wA1 wS1 wS1
-0 6 wS1 wG1 wQ wA1 wA2 wA2
-0 6 wG1 wA1 wQ wA1 wA2 wA2
-0 6 wB1 wQ wS1 wS1 wA1 wB2
-0 6 wG1 wA1 wQ wA1 wS1 wS2
-0 6 wS1 wQ wA1 wS2 wA1 wS2
-0 6 wG1 wQ wA1 wA2 wA2 wA1
-0 6 wG1 wQ wA1 wA2 wA1 wA2
-0 6 wB1 wQ wA1 wS1 wA1 wA2
-0 6 wG1 wQ wS1 wS1 wB1 wG2
-0 6 wG1 wA1 wQ wA1 wB1 wA2
-0 6 wG1 wQ wS1 wS1 wA1 wA2
-0 6 wS1 wA1 wQ wS2 wA1 wG1
-0 6 wG1 wQ wA1 wA1 wS1 wS1
-0 6 wG1 wS1 wQ wS1 wG2 wG2
-0 6 wG1 wQ wA1 wS1 wS1 wA1
-0 6 wS1 wQ wB1 wA1 wA2 wA2
-0 6 wG1 wQ wS1 wS1 wB1 wA1
-0 6 wG1 wQ wA1 wA1 wS1 wA2
-0 6 wG1 wQ wA1 wA1 wG2 wB1
-0 6 wG1 wA1 wQ wA1 wS1 wG2
-0 6 wG1 wS1 wQ wS2 wA1 wA2
-0 6 wS1 wG1 wQ wS2 wA1 wA1
-0 6 wG1 wB1 wQ wS1 wA1 wA2
-0 6 wG1 wQ wA1 wA1 wG2 wQ
-0 6 wS1 wQ wA1 wA1 wA1 wB1
-0 6 wG1 wQ wA1 wA2 wG2 wA2
-0 6 wG1 wQ wS1 wS1 wA1 wS2
-0 6 wG1 wQ wA1 wS1 wA2 wA1
-0 6 wS1 wA1 wQ wA1 wS2 wS2
-0 6 wB1 wQ wS1 wS1 wS2 wB2
-0 6 wS1 wQ wS2 wS2 wS2 wG1
-0 6 wG1 wQ wA1 wA1 wS1 wB1
-0 6 wG1 wA1 wQ wA1 wB1 wB2
-0 6 wG1 wQ wB1 wA1 wA1 wS1
-0 6 wG1 wQ wA1 wS1 wA1 wA2
-0 6 wG1 wQ wA1 wA1 wS1 wS2
+1 8 wG1 bB1 wA1 bQ wQ bG1 wA2 bS1
+1 8 wG1 bG1 wQ bQ wS1 bS1 wS1 bA1
+1 8 wG1 bG1 wQ bQ wA1 bG2 wA2 bS1
+1 8 wG1 bG1 wQ bS1 wS1 bQ wS1 bS2
+1 8 wB1 bG1 wQ bQ wA1 bG2 wA2 bS1
+1 8 wS1 bB1 wQ bQ wA1 bA1 wA1 bA2
+1 8 wG1 bG1 wQ bQ wS1 bA1 wS2 bS1
+1 8 wG1 bG1 wA1 bQ wQ bS1 wA2 bS1
+1 8 wG1 bG1 wQ bQ wA1 bS1 wA2 bG2
+1 8 wG1 bG1 wQ bS1 wA1 bQ wA1 bS2
+1 8 wG1 bG1 wG2 bA1 wQ bQ wS1 bS1
+1 8 wB1 bG1 wQ bQ wA1 bA1 wA1 bA2
+1 8 wG1 bG1 wA1 bQ wQ bA1 wA1 bG2
+1 8 wG1 bG1 wA1 bS1 wQ bQ wS1 bG2
+1 8 wB1 bG1 wA1 bQ wQ bA1 wA1 bA2
+1 8 wG1 bG1 wQ bQ wS1 bG2 wS2 bS1
+1 8 wS1 bQ wQ bG1 wA1 bS1 wA1 bA1
+1 8 wG1 bG1 wA1 bQ wQ bA1 wA1 bS1
+1 8 wS1 bS1 wQ bQ wA1 bS2 wA1 bS2
+1 8 wG1 bB1 wQ bQ wA1 bS1 wG2 bS1
+1 8 wB1 bG1 wQ bQ wQ bB1 wA1 bA1
+1 8 wB1 bB1 wA1 bG1 wQ bQ wA1 bA1
+1 8 wG1 bG1 wQ bQ wA1 bS1 wA1 bS2
+1 8 wG1 bG1 wQ bQ wS1 bS1 wS1 bS1
+1 8 wG1 bG1 wQ bQ wS1 bA1 wA1 bA1
+1 8 wG1 bS1 wA1 bQ wQ bG1 wA1 bA1
+1 8 wS1 bG1 wA1 bQ wQ bG2 wA1 bA1
+1 8 wG1 bA1 wQ bQ wS1 bS1 wS1 bA2
+1 8 wG1 bG1 wA1 bQ wQ bS1 wS1 bS1
+1 8 wG1 bB1 wA1 bQ wQ bA1 wA1 bA2
+1 8 wG1 bG1 wQ bQ wA1 bS1 wS1 bG2
+1 8 wG1 bG1 wQ bG2 wA1 bQ wA2 bS1
+1 8 wG1 bB1 wQ bQ wS1 bS1 wS1 bA1
+1 8 wG1 bB1 wA1 bQ wQ bS1 wG2 bG1
+1 8 wG1 bG1 wQ bQ wA1 bS1 wG2 bS2
+1 8 wG1 bG1 wQ bQ wA1 bS1 wG2 bG2
+1 8 wG1 bS1 wA1 bQ wQ bG1 wA1 bS2
+1 8 wG1 bQ wQ bA1 wS1 bA1 wS2 bA2
+1 8 wG1 bG1 wA1 bB1 wQ bQ wA1 bA1
+1 8 wS1 bG1 wA1 bQ wQ bS1 wA1 bA1
+1 8 wG1 bG1 wA1 bQ wQ bG2 wA1 bS1
+1 8 wB1 bG1 wA1 bQ wQ bS1 wA1 bA1
+1 8 wB1 bG1 wA1 bB1 wQ bQ wA2 bS1
+1 8 wB1 bG1 wA1 bG2 wQ bQ wA1 bB1
+1 8 wG1 bG1 wA1 bQ wQ bB1 wA2 bS1
+1 8 wB1 bB1 wQ bQ wA1 bA1 wA1 bS1
+1 8 wG1 bG1 wQ bQ wS1 bA1 wS2 bA1
+1 8 wB1 bG1 wQ bQ wA1 bA1 wA1 bG2
+1 8 wG1 bG1 wA1 bG2 wQ bQ wA2 bS1
+1 8 wG1 bG1 wA1 bG2 wQ bQ wA1 bS1
+1 8 wG1 bG1 wS1 bQ wQ bS1 wS1 bS1
+1 8 wG1 bS1 wA1 bQ wQ bA1 wA1 bA2
+1 8 wB1 bG1 wA1 bA1 wQ bQ wA1 bS1
+1 8 wG1 bG1 wA1 bQ wQ bS1 wA2 bB1
+1 8 wG1 bG1 wA1 bA1 wQ bQ wA1 bS1
+0 8 wS1 bB1 wA1 bQ wQ bS1 wA1 bA1
+0 8 wB1 bG1 wA1 bQ wQ bA1 wA1 bS1
+0 8 wG1 bB1 wQ bQ wA1 bS1 wS1 bB2
+0 8 wG1 bG1 wQ bQ wA1 bA1 wS1 bA1
+0 8 wG1 bG1 wQ bQ wA1 bA1 wA1 bA2
+0 8 wS1 bG1 wQ bQ wA1 bS1 wA1 bA1
+0 8 wB1 bB1 wA1 bQ wQ bG1 wA1 bA1
+0 8 wG1 bB1 wA1 bG1 wQ bQ wA1 bA1
+0 8 wG1 bG1 wS1 bQ wA1 bS1 wQ bS1
+0 8 wG1 bG1 wQ bG2 wA1 bQ wA1 bA1
+0 8 wS1 bG1 wA1 bQ wQ bS1 wS2 bS1
+0 8 wG1 bG1 wQ bQ wA1 bS1 wA1 bS1
+0 8 wS1 bB1 wQ bQ wA1 bS1 wS2 bS1
+0 8 wG1 bG1 wS1 bQ wQ bA1 wS2 bA1
+0 8 wG1 bG1 wA1 bQ wQ bA1 wA1 bA2
+0 8 wB1 bG1 wQ bQ wS1 bS1 wS1 bA1
+0 8 wG1 bB1 wA1 bQ wQ bS1 wA1 bS2
+0 8 wG1 bB1 wQ bQ wS1 bQ wA1 bB1
+0 8 wB1 bB1 wQ bQ wS1 bA1 wS1 bG1
+0 8 wG1 bB1 wQ bG1 wB1 bQ wA1 bA1
+0 8 wS1 bG1 wG1 bQ wQ bA1 wS2 bA1
+0 8 wG1 bB1 wQ bQ wA1 bG1 wA1 bA1
+0 8 wG1 bG1 wS1 bQ wQ bA1 wS1 bA2
+0 8 wG1 bB1 wA1 bQ wQ bS1 wA1 bS1
+0 8 wS1 bG1 wQ bG2 wA1 bQ wS2 bA1
+0 8 wG1 bG1 wA1 bQ wQ bS1 wA1 bA1
+0 8 wG1 bG1 wA1 bG2 wQ bQ wA1 bG2
+0 8 wB1 bG1 wA1 bQ wQ bS1 wA2 bS2
+0 8 wB1 bG1 wA1 bQ wQ bS1 wA2 bB1
+0 8 wG1 bB1 wQ bQ wA1 bS1 wS1 bG1
+0 8 wG1 bB1 wA1 bQ wQ bG1 wA1 bA1
+0 8 wG1 bG1 wQ bQ wS1 bA1 wS1 bG2
+0 8 wG1 bG1 wQ bQ wS1 bS1 wA1 bS1
+0 8 wG1 bG1 wA1 bQ wQ bS1 wA2 bG2
+0 8 wG1 bG1 wA1 bQ wQ bA1 wA1 bA1
+0 8 wG1 bG1 wA1 bQ wQ bS1 wA1 bG2
+0 8 wG1 bG1 wA1 bQ wQ bS1 wA1 bS1
+0 8 wG1 bG1 wQ bQ wA1 bS1 wA1 bA1
+0 8 wS1 bG1 wG1 bQ wQ bA1 wA1 bA1
+0 8 wG1 bG1 wA1 bA1 wQ bQ wA1 bA2
+0 8 wG1 bG1 wQ bQ wS1 bA1 wS1 bA2
+0 8 wG1 bG1 wA1 bQ wQ bS1 wS1 bA1
+0 8 wS1 bB1 wG1 bQ wQ bA1 wS2 bA2
+0 8 wS1 bG1 wQ bQ wS2 bA1 wS2 bA2
+0 8 wG1 bG1 wQ bG2 wA1 bQ wA2 bA1
+0 8 wS1 bG1 wQ bQ wA1 bG2 wA1 bA1
+0 8 wG1 bG1 wQ bQ wA1 bG2 wG2 bA1
+0 8 wG1 bG1 wQ bQ wA1 bS1 wA2 bS1
+0 8 wG1 bB1 wB1 bQ wQ bA1 wS1 bA1
+0 8 wG1 bB1 wA1 bQ wQ bS1 wA1 bA1
+0 8 wS1 bG1 wA1 bQ wQ bA1 wA1 bA2
+0 8 wB1 bG1 wA1 bQ wQ bG2 wS1 bA1
+0 8 wS1 bA1 wQ bQ wB1 bA2 wA1 bA2
+0 8 wG1 bG1 wA1 bQ wQ bG2 wA1 bA1
+0 8 wB1 bG1 wQ bB1 wS1 bQ wS1 bA1
+0 8 wS1 bB1 wQ bQ wA1 bS1 wA1 bA1
+0 8 wG1 bG1 wA1 bG2 wQ bQ wA1 bA1
+0 8 wB1 bG1 wQ bQ wA1 bS1 wS1 bG2
+0 8 wG1 bG1 wA1 bS1 wQ bQ wA1 bA1
+0 8 wG1 bG1 wQ bQ wS1 bG2 wA1 bG2
+0 8 wG1 bB1 wQ bQ wA1 bS1 wA1 bA1
+0 8 wG1 bG1 wA1 bA1 wQ bQ wA1 bA1
+0 8 wG1 bB1 wQ bQ wA1 bA1 wA1 bA2
+0 8 wG1 bG1 wQ bQ wS1 bA1 wS1 bA1
+0 8 wB1 bG1 wQ bB1 wA1 bQ wS1 bS1
+0 8 wG1 bG1 wQ bQ wA1 bB1 wS1 bS1
+0 8 wB1 bG1 wQ bQ wA1 bG2 wA2 bA1
+0 8 wG1 bG1 wQ bQ wA1 bA1 wA1 bS1
+0 8 wG1 bG1 wQ bQ wA1 bG2 wA1 bA1
+0 8 wG1 bG1 wA1 bQ wQ bS1 wA1 bS2

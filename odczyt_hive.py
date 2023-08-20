@@ -12,31 +12,30 @@ def extract_words(logs, key):
             pieces.extend(row[1:3])
     return pieces
 
-def odczyt(keys1, keys2, n=10000):
+def odczyt(keys1, keys2, n=10000, l=6):
     pozytywne = set()
     negatywne = set()
     neutralne = set()
 
     for key in keys1:
         words = extract_words(logs, key)
-        print(words)
-        pozytywne.add(tuple(words[::4][:6]))
+        pozytywne.add(tuple(words[::2][:l]))
     for key in keys2:
         words = extract_words(logs, key)
-        negatywne.add(tuple(words[::4][:6]))
+        negatywne.add(tuple(words[::2][:l]))
 
         
     koncowy = open('hive.txt', 'w')
-    neutralne = pozytywne & negatywne  # Calculate neutral states
+    neutralne = pozytywne & negatywne  
     for s in pozytywne - neutralne:
-        print("1 6 %s" % ' '.join(s), file=koncowy)  
+        print(f"1 {l} %s" % ' '.join(s), file=koncowy)  
 
     for s in negatywne | neutralne:
-        print("0 6 %s" % ' '.join(s), file=koncowy)  
+        print(f"0 {l} %s" % ' '.join(s), file=koncowy)  
     return pozytywne, negatywne
 
 if __name__ == "__main__":
     logs = parse_logs(get_logs()) 
     log_parser = LogParser(logs)
     all_keys, white_keys, black_keys, draw_keys = log_parser.parse_logs()
-    pozytywne, negatywne = odczyt(white_keys, black_keys)
+    pozytywne, negatywne = odczyt(white_keys, black_keys, l=8)

@@ -116,7 +116,6 @@ sfre = odczytajSlowa(open("hive.txt", "r").readlines()) > (pipe
     | znajdz_kliki
     | sfre_z_klik)
 
-# Convert the list of tuples into a NetworkX graph
 sfre_graph = nx.Graph()
 for (L, R) in sfre:
     sfre_graph.add_nodes_from(L)
@@ -125,7 +124,6 @@ for (L, R) in sfre:
         for v in R:
             sfre_graph.add_edge(u, v)
 
-# Save the 'sfre' graph directly to JSON
 with open("sfre1.json", 'w') as plik:
     sfre_graph_data = json_graph.node_link_data(sfre_graph)
     json.dump(sfre_graph_data, plik)

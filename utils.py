@@ -210,3 +210,43 @@ def match(data, pmd=[]):
         
     if not data[pmd_mask[0]].empty:
         return data
+import numpy as np
+
+class LogParser:
+    def __init__(self, logs):
+        self.logs = logs
+
+    def parse_all_keys(self):
+        return np.array([k for k, v in self.logs.items() if len(v[-1]) > 1])
+
+    def parse_white_keys(self):
+        return np.array([k for k, v in self.logs.items() if len(v[-1]) > 1 and v[-1][1][0] == 'w'])
+
+    def parse_black_keys(self):
+        return np.array([k for k, v in self.logs.items() if len(v[-1]) > 1 and v[-1][1][0] == 'b'])
+
+    def parse_remaining_keys(self):
+        all_keys = set(self.logs.keys())
+        white_keys = set(self.parse_white_keys())
+        black_keys = set(self.parse_black_keys())
+        return np.array(list(all_keys - white_keys - black_keys))
+
+    def parse_draw_keys(self):
+        remaining_keys = set(self.parse_remaining_keys())
+        return np.array([k for k in remaining_keys if self.logs[k][-1] == ['d']])
+
+    def process_remaining_keys(self, color):
+        prev_color = 'w' if color == 'b' else 'b'
+        remaining_keys = set(self.parse_remaining_keys())
+        processed_keys = [k for k in remaining_keys if len(self.logs[k][-1]) > 1 and self.logs[k][-1][1][0] == 'r' and self.logs[k][-2][1][0] == prev_color]
+        return np.array(processed_keys)
+
+    def parse_and_append(self, keys, condition_color):
+        return np.append(keys, self.process_remaining_keys(condition_color))
+
+    def parse_logs(self):
+        all_keys = self.parse_all_keys()
+        white_keys = self.parse_and_append(self.parse_white_keys(), 'w')
+        black_keys = self.parse_and_append(self.parse_black_keys(), 'b')
+        draw_keys = self.parse_and_append(self.parse_draw_keys(), 'a')
+        return all_keys, white_keys, black_keys, draw_keys

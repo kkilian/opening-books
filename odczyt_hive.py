@@ -1,7 +1,7 @@
 import random
 import numpy as np
 import os
-from utils import get_logs, parse_logs, clean_data
+from utils import get_logs, parse_logs, clean_data, LogParser
 
 def extract_words(logs, key):
     pieces = []
@@ -36,15 +36,7 @@ def odczyt(keys1, keys2, n=10000):
     return pozytywne, negatywne
 
 if __name__ == "__main__":
-    logs = parse_logs(get_logs())
-
-    all_keys = np.array([k for k, v in zip(logs.keys(), logs.values()) if len(v[-1]) > 1])
-    white_keys = np.array([k for k, v in zip(logs.keys(), logs.values()) if len(v[-1]) > 1 and v[-1][1][0] == 'w'])
-    black_keys = np.array([k for k, v in zip(logs.keys(), logs.values()) if len(v[-1]) > 1 and v[-1][1][0] == 'b'])
-    remaining_keys = np.array([k for k in logs.keys() if k not in white_keys and k not in black_keys])
-    draw_keys = np.array([k for k in remaining_keys if logs[k][-1] == ['d']])
-    white_keys = np.append(white_keys, [k for k in remaining_keys if len(logs[k][-1]) > 1 and logs[k][-1][1][0] == 'r' and logs[k][-2][1][0] == 'w'])
-    black_keys = np.append(black_keys, [k for k in remaining_keys if len(logs[k][-1]) > 1 and logs[k][-1][1][0] == 'r' and logs[k][-2][1][0] == 'b'])
-    draw_keys = np.append(draw_keys, [k for k in remaining_keys if len(logs[k][-1]) > 1 and logs[k][-1][1][0] == 'a'])
-
+    logs = parse_logs(get_logs()) 
+    log_parser = LogParser(logs)
+    all_keys, white_keys, black_keys, draw_keys = log_parser.parse_logs()
     pozytywne, negatywne = odczyt(white_keys, black_keys)

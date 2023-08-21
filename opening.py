@@ -118,7 +118,6 @@ sfre = odczytajSlowa(open("hive.txt", "r").readlines()) > (pipe
 
 sfre_graph = nx.Graph()
 for (L, R) in sfre:
-    print((L,R))
     sfre_graph.add_nodes_from(L)
     sfre_graph.add_nodes_from(R)
     for u in L:

@@ -3,6 +3,21 @@ import numpy as np
 import os
 from utils import get_logs, parse_logs, clean_data, LogParser
 
+def reverseSequence(r):
+    reversed_string = ""
+    position_list = r.split()
+    for pos in reversed(position_list):
+        new_pos = ""
+        for char in pos:
+            if char == 'w':
+                new_pos += 'b'
+            elif char == 'b':
+                new_pos += 'w'
+            else:
+                new_pos += char
+        reversed_string += new_pos + ' '
+    return reversed_string.strip()
+
 def extract_words(logs, key):
     pieces = []
     rows = logs[key]
@@ -12,11 +27,10 @@ def extract_words(logs, key):
             pieces.extend(row[1:3])
     return pieces
 
-def odczyt(keys1, keys2, n=10000, l=6):
+def odczyt(keys1, keys2, n=10000, player="", l=6):
     pozytywne = set()
     negatywne = set()
     neutralne = set()
-
     for key in keys1:
         words = extract_words(logs, key)
         pozytywne.add(tuple(words[::2][:l]))
@@ -24,18 +38,26 @@ def odczyt(keys1, keys2, n=10000, l=6):
         words = extract_words(logs, key)
         negatywne.add(tuple(words[::2][:l]))
 
-        
-    koncowy = open('hive.txt', 'w')
+    print(pozytywne)
+
+    koncowy = open('hive_.txt', 'w')
     neutralne = pozytywne & negatywne  
     for s in pozytywne - neutralne:
-        print(f"1 {l} %s" % ' '.join(s), file=koncowy)  
+        if player == 'w':
+            print(f"1 {l} %s" % ' '.join(s), file=koncowy)  
+        else:
+            print(f"1 {l} %s" % reverseSequence(' '.join(s)), file=koncowy)  
+
 
     for s in negatywne | neutralne:
-        print(f"0 {l} %s" % ' '.join(s), file=koncowy)  
-    return pozytywne, negatywne
+        if player == 'w':
+            print(f"1 {l} %s" % ' '.join(s), file=koncowy)  
+        else:
+            print(f"1 {l} %s" % reverseSequence(' '.join(s)), file=koncowy)     
+        return pozytywne, negatywne
 
 if __name__ == "__main__":
     logs = parse_logs(get_logs()) 
     log_parser = LogParser(logs)
     all_keys, white_keys, black_keys, draw_keys = log_parser.parse_logs()
-    pozytywne, negatywne = odczyt(white_keys, black_keys, l=8)
+    pozytywne, negatywne = odczyt(white_keys, black_keys, "w", l=8)

@@ -27,23 +27,33 @@ def extract_words(logs, key):
             pieces.extend(row[1:3])
     return pieces
 
-def odczyt(keys1, keys2, n=10000, player="", l=6):
+def extract_words_context(logs, key):
+    pieces = []
+    rows = logs[key]
+    rows_count = len(rows)
+    for i, row in enumerate(rows):
+        if len(row) == 3:
+            pieces.extend((row[1:3] + row[2:]))
+
+    return pieces
+
+def odczyt(keys1, keys2, n=10000, player="w", l=6):
     pozytywne = set()
     negatywne = set()
     neutralne = set()
     for key in keys1:
-        words = extract_words(logs, key)
+        words = extract_words_context(logs, key)
         pozytywne.add(tuple(words[::2][:l]))
     for key in keys2:
-        words = extract_words(logs, key)
+        words = extract_words_context(logs, key)
         negatywne.add(tuple(words[::2][:l]))
 
     print(pozytywne)
 
-    koncowy = open('hive_.txt', 'w')
+    koncowy = open('hive.txt', 'w')
     neutralne = pozytywne & negatywne  
     for s in pozytywne - neutralne:
-        if player == 'w':
+        if player == "w":
             print(f"1 {l} %s" % ' '.join(s), file=koncowy)  
         else:
             print(f"1 {l} %s" % reverseSequence(' '.join(s)), file=koncowy)  
@@ -51,13 +61,13 @@ def odczyt(keys1, keys2, n=10000, player="", l=6):
 
     for s in negatywne | neutralne:
         if player == 'w':
-            print(f"1 {l} %s" % ' '.join(s), file=koncowy)  
+            print(f"0 {l} %s" % ' '.join(s), file=koncowy)  
         else:
-            print(f"1 {l} %s" % reverseSequence(' '.join(s)), file=koncowy)     
-        return pozytywne, negatywne
+            print(f"0 {l} %s" % reverseSequence(' '.join(s)), file=koncowy)     
+    return pozytywne, negatywne
 
 if __name__ == "__main__":
     logs = parse_logs(get_logs()) 
     log_parser = LogParser(logs)
     all_keys, white_keys, black_keys, draw_keys = log_parser.parse_logs()
-    pozytywne, negatywne = odczyt(white_keys, black_keys, "w", l=8)
+    pozytywne, negatywne = odczyt(white_keys, black_keys, l=12)

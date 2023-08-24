@@ -1,231 +1,203 @@
-1 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1/ wA1 bB1\ \bQ
-1 12 wG1 . /wG1 wQ wG1- bG1\ wS1 wQ- -bG1 wS1 bQ- bA1\
-1 12 wG1 . wG1- wQ \wG1 bG1- wA1 /wG1 bG1/ wA2 \wQ bG1\
-1 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1/ bG1\ wA1 \bQ bG1-
-1 12 wG1 . -wG1 wA1 wG1- /bG1 wQ wG1\ bQ\ wA1 bS1\ \bG1
-1 12 wG1 . wG1- wA1 -wG1 bG1\ wQ wA1/ bG1/ wA1 bA1- /bQ
-1 12 wG1 . wG1- wA1 -wG1 bG1\ wQ wA1/ bQ\ wS1 wA1\ bG1/
-1 12 wB1 . wB1/ wQ -wB1 \bB1 wA1 \wQ bB1- wA1 bA1/ \bQ
-1 12 wG1 . wG1- wQ /wG1 bG1\ wA1 wQ\ bG1/ wA1 bA1/ bG1-
-1 12 wG1 . -wG1 wA1 wG1- \bB1 wQ wG1\ /bB1 wA1 \bQ -bB1
-1 12 wG1 . -wG1 wQ wG1/ \bG1 wA1 wG1\ -bG1 wA1 bQ/ bG2\
-1 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1\ bG1- wA2 wA1/ bG1\
-1 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1\ bG1\ wA1 /bQ bG1/
-1 12 wG1 . -wG1 wA1 wG1- /bG1 wQ wG1/ \bG1 wA1 bA1/ -bG1
-1 12 wG1 . wG1\ wQ -wG1 /bG1 wA1 \wQ bG1- wA1 bA1- bQ-
-1 12 wG1 . /wG1 wA1 wG1/ /bG1 wQ wG1- -bG1 wA1 bG2\ -bG2
-1 12 wS1 . wS1\ wQ \wS1 /bG1 wS2 -wQ bG1- wS2 -bQ bA1-
-1 12 wG1 . wG1- wQ -wG1 bG1\ wS1 wQ\ bG1/ wA1 -wS1 /wA1
-1 12 wG1 . -wG1 wA1 wG1- -bG1 wQ wG1\ bG2/ wA1 -bG2 bG2\
-1 12 wG1 . /wG1 wA1 wG1/ bB1\ wQ wG1- -bQ wA1 bQ\ -bB1
-1 12 wG1 . -wG1 wA1 wG1- /bG1 wQ wG1/ \bG1 wA1 -bS1 bQ\
-1 12 wG1 . wG1\ wQ -wG1 bG1- wS1 wG1/ bG1\ wS2 /wQ -wS2
-1 12 wG1 . wG1\ wA1 \wG1 /bB1 wQ wA1- bQ- wA1 /bQ bB1-
-1 12 wG1 . wG1/ wA1 /wG1 bG1/ wQ wA1- -bG2 wA1 bG2- bQ/
-1 12 wG1 . -wG1 wA1 wG1- \bG1 wQ wG1/ /bG1 wA1 /bS1 -bG1
-1 12 wG1 . \wG1 wA1 wG1\ \bG1 wQ wG1- -bG1 wA1 bG2/ -bG2
-1 12 wG1 . wG1- wQ -wG1 bG1/ wS1 wQ/ bG1\ wS1 bS1/ /bQ
-1 12 wG1 . wG1- wQ \wG1 bQ\ wS1 /wG1 -wS1 wS2 wQ/ bQ\
-1 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1/ wA1 bG2\ bQ-
-1 12 wG1 . wG1- wQ \wG1 bG1\ wA1 -wQ bQ\ wG2 wA1\ bG1/
-1 12 wB1 . /wB1 wA1 wB1/ /bB1 wQ -wA1 -bB1 wA1 \bQ bG1-
-1 12 wG1 . wG1\ wQ wG1/ bB1- wA1 \wQ /bB1 wA1 bA1\ bQ\
-1 12 wG1 . -wG1 wA1 wG1- \bG1 wQ wG1\ /bG1 wA1 bQ/ wQ\
-1 12 wB1 . -wB1 wA1 wB1- -bG1 wQ wB1/ bA1/ wA1 bQ/ bA1\
-1 12 wG1 . -wG1 wA1 wG1- -bG1 wQ wG1\ bG2/ wA1 /bG2 bQ/
-1 12 wG1 . wG1/ wA1 /wG1 bG1- wQ -wG1 bG1/ wA1 bQ- -bG2
-1 12 wG1 . wG1- wQ \wG1 bG1/ wA1 /wG1 bG1\ wA1 bS1- \bS1
-1 12 wG1 . -wG1 wA1 wG1- -bG1 wQ wG1/ bG2\ wA1 \bG2 -bQ
-1 12 wB1 . wB1- wQ /wB1 bG1\ wA1 \wB1 bG1/ wA1 /bQ bG1-
-1 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1\ wA1 bG2/ bQ-
-1 12 wG1 . wG1- wQ \wG1 bG1- wA1 /wG1 bG1\ wA2 \wQ bG1/
-1 12 wG1 . wG1- wQ \wG1 bG1- wA1 /wG1 bG1\ wA1 bQ\ bG1/
-1 12 wG1 . -wG1 wQ wG1- /bG1 wS1 wG1\ \bG1 wS1 /bQ -bG1
-1 12 wG1 . wG1/ wA1 /wG1 bS1- wQ -wG1 bS1/ wA1 \bG1 bG1-
-1 12 wG1 . -wG1 wA1 wG1- \bG1 wQ wG1\ /bG1 wA1 -bS1 bQ/
-1 12 wG1 . wG1- wQ \wG1 bG1\ wS1 /wG1 bG1/ wS1 bQ\ \wQ
-1 12 wG1 . wG1- wA1 -wG1 bB1- wQ wA1/ bB1\ wA2 wA1\ bB1/
-1 12 wG1 . wG1\ wA1 \wG1 bG1- wQ -wG1 bQ/ wA1 bS1/ /bG1
-1 12 wS1 . wS1/ wA1 /wS1 bG1- wQ -wS1 bG1/ wA1 bQ- -bG2
-1 12 wG1 . wG1- wA1 -wG1 bG1\ wQ wA1/ bG1/ wA2 wA1\ \wQ
-1 12 wB1 . \wB1 wQ wB1- bG1/ wA1 /wB1 -bQ wA2 wQ- -bG1
-1 12 wG1 . wG1- wQ \wG1 bG1- wA1 -wQ bG1/ wA2 wA1/ \bQ
-1 12 wG1 . wG1- wQ -wG1 bG1/ wS1 wQ/ bG1- wS2 wQ\ bG1\
-1 12 wG1 . /wG1 wA1 wG1/ /bG1 wQ wG1- bG2- wA1 bQ\ -bG1
-1 12 wG1 . -wG1 wQ wG1/ /bG1 wA1 wQ- \bG1 wA1 \bA1 -bQ
-1 12 wG1 . -wG1 wQ wG1/ /bG1 wA1 wG1\ \bG1 wA1 /bQ -bG1
-1 12 wB1 . wB1- wQ \wB1 bG1\ wA1 -wB1 bG1/ wA1 bA1/ bQ-
-1 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1\ bG1/ wA1 bG2\ bQ-
-1 12 wG1 . -wG1 wA1 wG1- \bG1 wQ wG1\ bQ/ wA1 bS1/ /bG1
-1 12 wS1 . wS1- wQ /wS1 bG1\ wA1 -wS1 bG1- wA1 bQ\ bG1/
-1 12 wG1 . wG1/ wA1 /wG1 \bS1 wQ wA1- bS1- wA1 bA1/ bQ/
-1 12 wG1 . wG1\ wA1 \wG1 bG1\ wQ wA1- -bG2 wA1 bG2- bQ\
-1 12 wG1 . -wG1 wQ wG1/ \bG1 wA1 wG1\ -bG1 wA2 wQ/ bG2\
-1 12 wG1 . wG1- wA1 \wG1 bB1/ wQ /wG1 bB1\ wA1 bA1\ \bQ
-1 12 wG1 . wG1- wA1 \wG1 bB1/ wQ /wG1 bB1\ wG2 -wG1 bB1-
-1 12 wB1 . wB1- wA1 -wB1 bG1- wQ wA1\ bG1\ wA2 wA1/ bG1/
-1 12 wG1 . wG1\ wA1 -wG1 /bG1 wQ wG1/ bG1- wS1 wQ- wS1-
-1 12 wG1 . /wG1 wA1 wG1- -bG1 wQ wG1/ bG1\ wA1 /bQ \bQ
-1 12 wG1 . wG1\ wQ \wG1 bG1- wS1 wQ- bG1\ wS2 -wG1 -bA1
-1 12 wB1 . wB1- wA1 /wB1 bB1/ wQ -wB1 bB1- wA1 bG1- bB1\
-1 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1\ wA1 /bQ bG1/
-1 12 wS1 . wS1- wQ -wS1 bB1/ wA1 \wQ bB1\ wA1 bQ/ bB1-
-1 12 wG1 . wG1\ wA1 wG1/ bG1- wQ -wG1 /bG1 wA1 bQ\ bQ/
-1 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1/ bG1\ wS1 wA1\ bG1-
-1 12 wG1 . -wG1 wA1 wG1- -bG1 wQ wG1/ bG2/ wA1 /bG2 \bQ
-1 12 wB1 . -wB1 wA1 wB1/ /bG1 wQ wB1\ \bG1 wA1 \bA1 -bG1
-1 12 wS1 . wS1/ wA1 wS1\ bG1- wQ -wS1 \bG1 wA1 \bA1 bA1-
-1 12 wG1 . wG1- wQ /wG1 bG1/ wA1 \wG1 bG1\ wG2 -wG1 bG1-
-1 12 wB1 . wB1- wQ \wB1 bG1\ wS1 /wB1 bG1/ wS1 bQ\ bS1/
-1 12 wS1 . wS1\ wQ \wS1 bB1- wA1 \wQ /bB1 wA1 bQ- bA1-
-1 12 wG1 . wG1- wA1 -wG1 bB1- wQ wA1/ bB1/ wA1 \bQ bB1\
-1 12 wG1 . wG1- wQ \wG1 bB1- wS1 wQ/ bB1/ wS1 bS1/ bB1\
-1 12 wG1 . -wG1 wA1 wG1- /bB1 wQ wG1\ \bB1 wA1 \bA1 -bB1
-1 12 wG1 . -wG1 wA1 wG1- -bG1 wQ wG1/ bG2/ wA2 wG1\ bG2\
-1 12 wB1 . \wB1 wA1 wB1\ bG1/ wQ -wA1 bQ- wA1 \bQ -bG1
-1 12 wG1 . wG1- wQ \wG1 bG1\ wS1 /wG1 /bQ wS1 /bS1 bG1-
-1 12 wB1 . wB1- wA1 -wB1 bG1- wQ wA1\ bG1\ wA1 bG2/ /bQ
-1 12 wG1 . wG1- wS1 \wG1 bG1\ wQ -wG1 /bQ wS1 bG1- /wQ
-1 12 wG1 . wG1\ wQ -wG1 bG1- wS1 /wQ bQ/ wS2 wG1/ \wS2
-1 12 wG1 . -wG1 wA1 wG1- \bG1 wQ wG1\ /bG1 wA1 -bA1 bQ/
-1 12 wG1 . -wG1 wA1 wG1- /bG1 wQ wG1\ -bG1 wA1 bQ\ bG2/
-1 12 wG1 . wG1- wQ -wG1 bG1/ wA1 -wQ bG1\ wS1 wQ/ bG1-
-1 12 wG1 . wG1- wQ \wG1 bB1/ wA1 wQ/ bB1\ wG2 -wG1 /wG2
-1 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1/ bG1\ wA1 bA1- \bQ
-1 12 wG1 . -wG1 wQ wG1/ /bG1 wA1 wQ- \bG1 wA2 wA1/ bQ\
-1 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1\ \bQ wA1 \bS1 bQ-
-1 12 wG1 . wG1- wQ \wG1 bG1/ wA1 wQ/ bG1\ wA1 bA1\ bG1-
-1 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1/ bG1\ wA1 bA1- /bQ
-1 12 wG1 . -wG1 wA1 wG1- -bG1 wQ wG1/ bG2/ wA1 bQ/ bG2\
-1 12 wB1 . -wB1 wA1 wB1- /bG1 wQ wB1\ \bG1 wA1 \bA1 bQ\
-1 12 wG1 . wG1- wQ -wG1 bA1/ wS1 \wQ \bQ wS1 -bS1 bA1\
-1 12 wG1 . wG1/ wA1 /wG1 \bG1 wQ wA1- bG1- wA1 bS1/ bQ/
-1 12 wS1 . -wS1 wA1 wS1- /bG1 wQ wS1/ \bG1 wA1 bQ\ -bG1
-1 12 wS1 . wS1- wQ -wS1 bQ- wA1 wQ\ bQ/ wA1 bG1- bQ\
-1 12 wG1 . wG1- wQ -wG1 bG1/ wA1 wQ\ bG1\ wA1 bS1- /bS1
-1 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1/ bG1\ wA1 \bS1 /bQ
-1 12 wS1 . wS1\ wQ \wS1 bS1\ wA1 wQ/ -bQ wA1 bQ\ -wQ
-1 12 wG1 . wG1- wQ -wG1 bB1\ wA1 wQ/ bB1/ wA1 bQ\ bB1-
-1 12 wG1 . wG1- wQ \wG1 bB1/ wA1 /wG1 bB1\ wA1 \bQ bB1-
-1 12 wG1 . wG1- wG2 -wG1 bG1\ wQ wG2\ bG1/ wS1 wG2/ /bA1
-1 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1\ wA1 bQ/ /bS1
-1 12 wB1 . wB1- wQ /wB1 bG1/ wQ wB1\ bG1- wA1 -wQ bQ-
-0 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1\ wA1 bQ\ bG1/
-0 12 wG1 . /wG1 wA1 wG1/ bG1\ wQ -wA1 -bG1 wA2 wG1- bS1\
-0 12 wG1 . \wG1 wA1 wG1\ \bB1 wQ wG1- bG1- wA1 bQ- -bB1
-0 12 wS1 . wS1- wA1 \wS1 bG1/ wQ /wS1 bG1\ wS2 /wQ wS2\
-0 12 wG1 . /wG1 wA1 wG1/ bG1\ wQ wG1- -bG1 wA1 -bS1 bQ\
-0 12 wG1 . wG1- wA1 -wG1 bB1/ wQ wA1\ bB1- wA1 \bQ bB1\
-0 12 wG1 . \wG1 wA1 wG1\ bG1/ wQ -wA1 -bG1 wA1 bQ- bS1/
-0 12 wG1 . -wG1 wQ wG1\ /bB1 wA1 wQ- /bQ wS1 wG1/ -bQ
-0 12 wG1 . /wG1 wA1 wG1/ -bG1 wQ wG1- bG1\ wA1 -bQ wQ-
-0 12 wG1 . -wG1 wQ wG1/ /bB1 wA1 wG1\ \bB1 wA1 \bA1 bQ\
-0 12 wG1 . -wG1 wQ wG1\ \bG1 wA1 wQ\ /bG1 wA1 -bS1 bQ/
-0 12 wG1 . wG1- wQ /wG1 bG1\ wS1 wQ\ bG1/ wS1 bQ\ bG1-
-0 12 wG1 . wG1- wA1 -wG1 bB1- wQ wA1\ bB1\ wA1 bG1/ bQ-
-0 12 wG1 . wG1- wQ \wG1 bB1\ wA1 \wQ bB1/ wA1 bQ\ bB1-
-0 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1/ wA1 bQ/ bG1\
-0 12 wG1 . -wG1 wA1 wG1- /bG1 wQ wG1\ /bQ wA1 /bS1 \bG1
-0 12 wG1 . wG1- wQ -wG1 bG1/ wS1 wQ/ bG1\ wS1 bQ/ \wQ
-0 12 wG1 . -wG1 wA1 wG1- /bB1 wQ wG1/ \bB1 wA1 /bQ wQ/
-0 12 wG1 . wG1- wQ /wG1 bG1\ wS1 /wQ bG1/ wS1 /bQ \bA1
-0 12 wS1 . -wS1 wQ wS1/ /bG1 wS2 wS1\ \bG1 wS2 /bQ -bG1
-0 12 wG1 . /wG1 wQ \wG1 -bG1 wA1 wG1- bG1\ wA1 bA1\ -bQ
-0 12 wB1 . -wB1 wA1 wB1- /bG1 wQ wB1\ bQ\ wA2 wB1/ \bG1
-0 12 wG1 . wG1- wA1 -wG1 bG1\ wQ wA1\ bG1/ wA1 bA1- bQ\
-0 12 wG1 . wG1- wA1 -wG1 bB1/ wQ wA1\ bB1\ wA1 bS1\ \bQ
-0 12 wG1 . wG1- wA1 -wG1 bG1\ wQ wA1/ bG1/ wA1 bS1- /bQ
-0 12 wB1 . /wB1 wA1 \wB1 bG1\ wQ wB1- -bQ wS1 wQ- -bG1
-0 12 wG1 . /wG1 wA1 wG1/ /bG1 wQ wG1- -bG1 wA1 -bQ bG2-
-0 12 wB1 . wB1- wQ -wB1 bG1/ wA1 -wQ bG1\ wS1 wQ/ bG1-
-0 12 wG1 . -wG1 wA1 wG1- -bG1 wQ wG1\ bG2\ wA1 /bQ bG2/
-0 12 wG1 . wG1- wQ -wG1 bG1/ wS1 \wQ bG1- wS1 \bQ bG1\
-0 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1/ wA1 bA1\ \bQ
-0 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1/ bG1\ wA1 bQ/ wA1/
-0 12 wG1 . -wG1 wQ wG1\ /bG1 wA1 /wQ \bG1 wA1 \bA1 -bQ
-0 12 wG1 . -wG1 wA1 wG1- /bB1 wQ wG1/ -bB1 wA1 /bQ bG1/
-0 12 wG1 . -wG1 wQ wG1/ \bG1 wS1 \wQ -bG1 wA1 wS1- wG1-
-0 12 wG1 . /wG1 wA1 wG1/ bG1\ wQ -wA1 -bQ wA1 -bG2 bQ-
-0 12 wG1 . wG1- wQ \wG1 bG1/ wS1 /wG1 bQ/ wA1 wS1\ wQ/
-0 12 wG1 . /wG1 wQ wG1- bB1\ wA1 wG1/ -bQ wA1 bQ\ -bB1
-0 12 wG1 . wG1\ wA1 \wG1 /bG1 wQ wA1- bG1- wA1 bS1\ bQ\
-0 12 wG1 . -wG1 wA1 wG1- \bG1 wQ wG1\ -bG1 wA1 /bQ -bS1
-0 12 wG1 . wG1- wQ \wG1 bG1/ wA1 /wG1 bG1\ wS1 wQ/ wS1/
-0 12 wG1 . wG1\ wA1 \wG1 bG1\ wQ wA1- bG1- wA1 bQ- -bG2
-0 12 wS1 . wS1/ wQ /wS1 bB1- wA1 -wS1 \bB1 wA1 bQ\ bS1-
-0 12 wG1 . wG1- wQ -wG1 bB1/ wA1 wQ\ bB1\ wA1 bQ/ bB1-
-0 12 wG1 . wG1- wQ \wG1 bG1- wA1 /wG1 bG1\ wA2 wQ/ bG1/
-0 12 wS1 . wS1- wQ -wS1 bB1/ wA1 -wQ bB1\ wS2 wQ/ wA1\
-0 12 wG1 . wG1- wQ /wG1 bG1- wA1 \wG1 bG1/ wA1 bQ/ bG1\
-0 12 wG1 . -wG1 wQ wG1\ \bG1 wA1 wQ- /bG1 wA2 wA1\ wQ\
-0 12 wG1 . wG1/ wQ -wG1 \bG1 wS1 \wQ bQ/ wS1 -bA1 bQ-
-0 12 wG1 . wG1- wQ \wG1 bG1/ wA1 wQ/ bG1\ wA1 bA1\ bQ/
-0 12 wS1 . /wS1 wQ \wS1 -bG1 wA1 wQ- bQ\ wA1 -bQ bG2-
-0 12 wG1 . wG1/ wQ -wG1 bG1- wA1 wG1\ bQ\ wA1 bQ- \bG1
-0 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1\ bG1- wA1 bQ/ bG1\
-0 12 wG1 . /wG1 wA1 wG1/ bB1\ wQ -wA1 -bQ wA1 -bG1 bG1\
-0 12 wS1 . wS1- wQ -wS1 bG1- wA1 /wQ bG1\ wS2 wA1- bG1/
-0 12 wG1 . wG1- wQ -wG1 bG1/ wA1 wQ\ bG1\ wA1 bQ- \bQ
-0 12 wG1 . -wG1 wA1 wG1- /bG1 wQ wG1\ \bG1 wA1 bQ\ -bG1
-0 12 wG1 . -wG1 wQ wG1/ /bG1 wS1 wG1\ \bG1 wS1 /bQ -bG1
-0 12 wB1 . -wB1 wA1 wB1- /bG1 wQ wB1\ \bG1 wA1 -bA1 /bQ
-0 12 wS1 . wS1- wA1 \wS1 bB1/ wQ /wS1 bB1\ wA1 bQ/ /bS1
-0 12 wG1 . wG1- wS1 \wG1 bG1\ wA1 /wG1 /bQ wQ -wG1 /wA1
-0 12 wG1 . wG1/ wA1 /wG1 \bG1 wQ wA1- bQ- wA1 \bQ bG1-
-0 12 wG1 . wG1/ wQ wG1\ \bB1 wS1 -wG1 wS1/ wA1 /wS1 wG1
-0 12 wG1 . /wG1 wA1 wG1/ bG1\ wQ -wA1 -bG1 wA1 /bS1 bQ-
-0 12 wS1 . wS1- wG1 -wS1 bG1/ wQ wG1\ bG1\ wA1 wG1/ wA1/
-0 12 wG1 . wG1- wB1 -wG1 bB1/ wQ -wB1 bB1\ wS1 wB1/ \wQ
-0 12 wG1 . wG1- wQ \wG1 bG1\ wA1 -wQ bG1- wG2 wA1\ bQ-
-0 12 wB1 . wB1- wQ \wB1 bG1- wA1 -wB1 bG1/ wS1 \wQ bG1\
-0 12 wS1 . -wS1 wQ wS1- /bG1 wS2 wS1\ \bG1 wS2 /bQ -bG1
-0 12 wG1 . wG1- wQ \wG1 bG1/ wA1 /wG1 bG1\ wA1 \bQ -wG1
-0 12 wG1 . wG1- wQ -wG1 bG1/ wS1 wQ/ bG1\ wS1 bQ/ bG1-
-0 12 wG1 . wG1/ wQ wG1\ \bG1 wA1 -wG1 bG1- wA2 -wA1 wQ\
-0 12 wB1 . \wB1 wQ wB1\ bG1/ wS1 wB1- bQ/ wS1 bS1- -bG1
-0 12 wG1 . wG1/ wA1 /wG1 bB1/ wQ wA1- bB1- wA1 bQ\ -bG1
-0 12 wG1 . wG1- wA1 \wG1 bB1/ wQ -wG1 bB1\ wA1 \bQ bB1-
-0 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1/ wA1 \bQ \wA1
-0 12 wG1 . -wG1 wA1 wG1- -bG1 wQ wG1/ bG2/ wA1 bQ/ wA1/
-0 12 wB1 . wB1- wA1 -wB1 bG1\ wQ wA1/ bG1/ wA2 wA1\ bG1-
-0 12 wB1 . wB1- wQ -wB1 bG1/ wA1 wQ\ bG1- wA2 wQ/ bG1\
-0 12 wG1 . wG1- wQ \wG1 bB1- wB1 /wG1 bB1/ wA1 \wQ bB1\
-0 12 wG1 . wG1\ wQ wG1/ /bG1 wS1 -wQ bG1- wS1 -bQ bA1/
-0 12 wG1 . /wG1 wA1 wG1/ -bG1 wQ wG1- bQ\ wA1 \bQ bG2-
-0 12 wG1 . wG1- wQ /wG1 bG1\ wA1 -wQ bG1- wS1 \wG1 bG1/
-0 12 wG1 . wG1/ wQ -wG1 bG1- wS1 wG1\ \bG1 wS1 bQ- bA1-
-0 12 wG1 . \wG1 wA1 wG1\ \bG1 wQ wG1- bG2- wA1 bQ- -bG1
-0 12 wB1 . wB1- wQ -wB1 bG1- wS1 wQ\ bG1\ wS1 bQ\ bG1/
-0 12 wG1 . -wG1 wA1 wG1- \bB1 wQ wG1\ /bB1 wA1 -bS1 bQ/
-0 12 wG1 . wG1\ wA1 \wG1 /bG1 wQ wA1- bG1- wA1 -bQ bQ-
-0 12 wG1 . wG1- wQ /wG1 bB1\ wA1 -wG1 bB1/ wA1 /bQ bB1-
-0 12 wG1 . /wG1 wA1 wG1/ -bB1 wQ wG1- bB1\ wA1 /bS1 \bQ
-0 12 wG1 . wG1- wQ -wG1 bB1\ wA1 -wQ bB1/ wS1 wQ\ bQ\
-0 12 wB1 . wB1- wQ \wB1 bB1\ wS1 /wB1 bB1/ wS1 bQ\ bB1-
-0 12 wG1 . wG1- wQ -wG1 bG1- wA1 wQ/ bG1/ wA1 bG2\ bQ-
-0 12 wG1 . -wG1 wA1 wG1- /bB1 wQ wG1/ -bB1 wA1 \bG1 -bQ
-0 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1/ wA1 bQ/ wQ/
-0 12 wG1 . wG1- wQ -wG1 bB1/ wA1 \wQ bB1\ wA1 bQ/ bB1-
-0 12 wG1 . wG1\ wA1 \wG1 bG1- wQ wA1- bQ- wA1 bS1- bQ\
-0 12 wG1 . /wG1 wS1 wG1/ -bG1 wQ wG1- bG1\ wS1 \bQ bA1-
-0 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1\ bG1/ wA1 bQ/ bG1\
-0 12 wG1 . wG1- wA1 /wG1 bG1\ wQ \wG1 bG1/ wA1 bA1/ bQ-
-0 12 wG1 . wG1/ wQ -wG1 bG1- wA1 wQ\ bG1/ wA1 \bG2 bG2-
-0 12 wG1 . -wG1 wQ wG1\ /bG1 wS1 /wQ \bG1 wS1 /bQ -bG1
-0 12 wS1 . wS1- wQ \wS1 bG1\ wA1 /wS1 bG1/ wA1 bQ\ bG1-
-0 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1\ bG1\ wA1 bA1- bQ-
-0 12 wS1 . wS1- wG1 \wS1 bB1\ wQ \wG1 bB1/ wS2 /wS1 \bA1
-0 12 wS1 . -wS1 wA1 wS1/ \bG1 wQ wS1\ /bG1 wA1 bA1\ -bG1
-0 12 wS1 . wS1- wG1 \wS1 bG1/ wQ -wG1 bG1\ wS2 /wS1 -wS2
-0 12 wB1 . wB1- wA1 -wB1 bB1/ wQ wA1/ bB1- wA1 \bQ bB1\
-0 12 wG1 . wG1\ wQ wG1/ /bG1 wS1 -wG1 bG1- wS1 /bQ bQ-
-0 12 wS1 . -wS1 wQ wS1/ /bG1 wA1 wS1- \bG1 wA1 /bQ -bG1
-0 12 wG1 . wG1- wQ \wG1 bG1/ wS1 \wQ bG1- wS1 \bQ bG1\
-0 12 wG1 . /wG1 wA1 wG1/ bG1\ wQ wG1- -bQ wA1 -bG2 bG2\
-0 12 wG1 . wG1- wA1 \wG1 bG1/ wQ /wG1 bG1\ wS1 wA1/ bS1\
-0 12 wG1 . -wG1 wS1 wG1/ /bG1 wQ wG1- bQ\ wS2 wG1\ wS2\
-0 12 wG1 . wG1- wA1 -wG1 bG1- wQ wA1/ bG1/ wA1 \bQ bG1\
-0 12 wG1 . wG1- wA1 \wG1 bG1/ wQ /wG1 bG1- wA1 bQ/ bG1\
-0 12 wS1 . wS1\ wQ \wS1 bA1- wB1 wQ- /bA1 wA1 wQ/ wA1/
-0 12 wS1 . /wS1 wA1 \wS1 -bG1 wQ wA1- bG1\ wS2 wS1- wS2-
-0 12 wG1 . wG1- wA1 -wG1 bG1/ wQ wA1\ \bQ wA1 bS1/ bG1\
+1 4 wB1. wQwB1- wA1/wB1 wA2wQ-
+1 4 wG1. wQ-wG1 wA1-wQ wS1wQ/
+1 4 wG1. wQwG1/ wA1wG1\ wA2wQ/
+1 4 wG1. wA1wG1\ wQwG1- wA1bG2/
+1 4 wG1. wQ-wG1 wS1wQ/ wS2wQ\
+1 4 wS1. wQ-wS1 wA1wQ\ wA1bG1-
+1 4 wB1. wQ\wB1 wA1-wB1 wA1bA1/
+1 4 wB1. wA1/wB1 wQ-wB1 wA1bG1-
+1 4 wB1. wQ/wB1 wQwB1\ wA1-wQ
+1 4 wB1. wA1-wB1 wQwA1\ wA1bG2/
+1 4 wG1. wQwG1/ wA1wQ- wA2wA1/
+1 4 wG1. wA1wG1- wQwG1/ wA1/bG2
+1 4 wG1. wA1/wG1 wQwA1- wA1bG2-
+1 4 wG1. wQ/wG1 wA1wQ\ wA1bA1/
+1 4 wG1. wQ\wG1 wS1wQ/ wS1bS1/
+1 4 wS1. wA1wS1- wQwS1/ wA1bQ\
+1 4 wG1. wA1/wG1 wQ-wG1 wA1bQ-
+1 4 wG1. wQ\wG1 wA1/wG1 wA1bQ\
+1 4 wG1. wQ\wG1 wS1/wG1 wS1bQ\
+1 4 wG1. wA1wG1- wQwG1/ wA1bA1/
+1 4 wB1. wA1wB1- wQwB1/ wA1bQ/
+1 4 wB1. wA1wB1- wQwB1\ wA1\bA1
+1 4 wS1. wQ-wS1 wA1\wQ wA1bQ/
+1 4 wG1. wA1-wG1 wQwA1/ wA1bG2/
+1 4 wG1. wA1wG1- wQwG1\ wA1-bG2
+1 4 wB1. wA1wB1/ wQwB1\ wA1\bA1
+1 4 wG1. wQ/wG1 wA1\wG1 wG2-wG1
+1 4 wG1. wA1-wG1 wQwA1/ wA1bA1-
+1 4 wG1. wA1-wG1 wQwA1/ wA1bG2\
+1 4 wG1. wQ-wG1 wS1\wQ wS1-bS1
+1 4 wG1. wQwG1/ wA1wG1\ wA1/bQ
+1 4 wG1. wA1wG1- wQwG1/ wA1\bG2
+1 4 wG1. wA1wG1- wQwG1\ wA1-bA1
+1 4 wG1. wA1-wG1 wQwA1\ wA2wA1/
+1 4 wG1. wQ\wG1 wS1wQ- wS2-wG1
+1 4 wG1. wA1wG1- wQwG1/ wA2wG1\
+1 4 wG1. wQ\wG1 wS1/wG1 wS2wQ/
+1 4 wS1. wA1/wS1 wQ-wS1 wA1bQ-
+1 4 wG1. wA1-wG1 wQwA1/ wA1/bQ
+1 4 wG1. wA1wG1/ wQwG1- wA1bG2\
+1 4 wS1. wQ\wS1 wA1\wQ wA1bQ-
+1 4 wG1. wQ\wG1 wS1/wG1 wS1/bS1
+1 4 wG1. wA1\wG1 wQ/wG1 wA1bA1\
+1 4 wB1. wA1-wB1 wQwA1\ wA2wA1/
+1 4 wG1. wQ\wG1 wA1/wG1 wA2\wQ
+1 4 wG1. wA1\wG1 wQ/wG1 wG2-wG1
+1 4 wG1. wQ\wG1 wA1wQ/ wG2-wG1
+1 4 wG1. wQ-wG1 wA1wQ/ wA1bQ\
+1 4 wG1. wA1wG1/ wQwG1- wA1bQ\
+1 4 wG1. wQ\wG1 wA1/wG1 wA1bS1-
+1 4 wG1. wA1\wG1 wQwA1- wA1bG2-
+1 4 wG1. wQwG1/ wA1\wQ wA1bA1\
+1 4 wG1. wA1wG1- wQwG1\ wA1bS1/
+1 4 wB1. wQ-wB1 wA1\wQ wA1bA1/
+1 4 wB1. wA1wB1\ wQ-wA1 wA1\bQ
+1 4 wG1. wA1wG1- wQwG1/ wA1/bS1
+1 4 wG1. wA1wG1- wQwG1\ wA1\bQ
+1 4 wG1. wA1wG1- wQwG1/ wA1-bS1
+1 4 wG1. wQ-wG1 wA1\wQ wA1bA1-
+1 4 wG1. wQwG1- wS1wG1\ wS1/bQ
+1 4 wG1. wA1wG1/ wQ-wG1 wA1bQ\
+1 4 wS1. wQ\wS1 wA1wQ/ wA1bQ\
+1 4 wB1. wQ/wB1 wA1\wB1 wA1/bQ
+1 4 wS1. wA1wS1\ wQ-wS1 wA1\bA1
+1 4 wG1. wA1wG1- wQwG1\ wA1/bG2
+1 4 wG1. wQwG1- wS1wQ- wS1bQ-
+1 4 wG1. wA1wG1- wQwG1\ wA1bS1\
+1 4 wG1. wA1/wG1 wQwA1- wA1bS1/
+1 4 wG1. wQwG1/ wA1wQ- wA1\bA1
+1 4 wB1. wA1wB1/ wQ-wA1 wA1\bQ
+1 4 wG1. wQ-wG1 wS1wQ/ wS1bS1/
+1 4 wG1. wA1\wG1 wQ-wG1 wA1bS1/
+1 4 wG1. wQwG1/ wA1wG1\ wA1bQ/
+1 4 wG1. wA1wG1- wQwG1\ wA1bQ/
+1 4 wG1. wA1wG1- wQwG1\ wA1\bA1
+1 4 wG1. wA1-wG1 wQwA1/ wA1\bS1
+1 4 wG1. wA1-wG1 wQwA1\ wA1bG2\
+1 4 wG1. wQ-wG1 wS1wG1/ wS2/wQ
+1 4 wG1. wG2-wG1 wQwG2\ wS1wG2/
+1 4 wG1. wS1\wG1 wQ-wG1 wS1bG1-
+1 4 wG1. wA1\wG1 wQwA1- wA1/bQ
+1 4 wG1. wA1-wG1 wQwA1\ wA1\bS1
+1 4 wS1. wQ\wS1 wS2-wQ wS2-bQ
+1 4 wG1. wQ-wG1 wS1wQ\ wA1-wS1
+1 4 wG1. wA1-wG1 wQwG1/ wS1wQ-
+1 4 wG1. wA1-wG1 wQwA1/ wS1wA1\
+1 4 wG1. wA1-wG1 wQwA1/ wA2wA1\
+1 4 wG1. wA1-wG1 wQwA1\ wA1/bQ
+1 4 wG1. wA1-wG1 wQwA1/ wA1bB1\
+1 4 wG1. wA1/wG1 wQ-wG1 wA1\bG1
+1 4 wG1. wA1/wG1 wQwA1- wA1bA1/
+1 4 wG1. wQ\wG1 wA1-wQ wA2wA1/
+1 4 wG1. wQ-wG1 wA1wQ\ wA1bS1-
+1 4 wG1. wQ-wG1 wS1/wQ wS2wG1/
+0 4 wG1. wQ-wG1 wS1\wQ wS1\bQ
+0 4 wG1. wA1wG1/ wQwG1- wA1-bG2
+0 4 wG1. wA1wG1\ wQwG1- wA1bQ-
+0 4 wB1. wQwB1\ wS1wB1- wS1bS1-
+0 4 wG1. wQ\wG1 wA1/wG1 wA1\bQ
+0 4 wG1. wA1wG1- wQwG1/ wA1\bG1
+0 4 wG1. wA1wG1- wQwG1\ wA1/bS1
+0 4 wG1. wQ\wG1 wA1/wG1 wA2wQ/
+0 4 wG1. wA1-wG1 wQwA1/ wA1bS1-
+0 4 wG1. wA1wG1- wQwG1\ wA1-bS1
+0 4 wG1. wQwG1\ wS1-wG1 wA1/wS1
+0 4 wG1. wQwG1/ wS1-wG1 wS1/bQ
+0 4 wG1. wA1wG1\ wQ-wA1 wA1bQ-
+0 4 wG1. wA1\wG1 wQwA1- wA1-bQ
+0 4 wG1. wQ/wG1 wS1/wQ wS1/bQ
+0 4 wG1. wQ-wG1 wS1\wQ wS1-bA1
+0 4 wG1. wQ-wG1 wA1\wQ wA1bQ/
+0 4 wG1. wS1wG1/ wQwG1- wS2wG1\
+0 4 wS1. wQ\wS1 wA1/wS1 wA1bQ\
+0 4 wG1. wA1\wG1 wQwA1- wA1bS1\
+0 4 wG1. wQwG1- wA1wG1/ wA1bQ\
+0 4 wS1. wQ\wS1 wB1wQ- wA1wQ/
+0 4 wG1. wA1wG1- wQwG1/ wA1bQ/
+0 4 wB1. wA1wB1- wQwB1\ wA1-bA1
+0 4 wG1. wA1\wG1 wQ-wG1 wA1\bQ
+0 4 wG1. wA1wG1- wQwG1/ wA1/bQ
+0 4 wG1. wQ\wG1 wA1/wG1 wS1wQ/
+0 4 wG1. wQ-wG1 wA1wQ\ wA1bQ/
+0 4 wS1. wA1wS1/ wQwS1\ wA1bA1\
+0 4 wS1. wA1\wS1 wQwA1- wS2wS1-
+0 4 wG1. wQ\wG1 wA1-wQ wG2wA1\
+0 4 wG1. wQwG1/ wA1wG1\ wA1\bA1
+0 4 wS1. wQ-wS1 wA1/wQ wS2wA1-
+0 4 wG1. wQ-wG1 wA1wQ\ wA1bQ-
+0 4 wG1. wA1wG1/ wQ-wA1 wA1-bG1
+0 4 wG1. wA1\wG1 wQwA1- wA1bQ-
+0 4 wB1. wA1wB1- wQwB1\ wA2wB1/
+0 4 wG1. wQwG1\ wA1-wG1 wA2-wA1
+0 4 wS1. wG1\wS1 wQ-wG1 wS2/wS1
+0 4 wG1. wQ-wG1 wA1-wQ wS1wQ\
+0 4 wG1. wQ-wG1 wS1wQ/ wS1bQ/
+0 4 wB1. wQ-wB1 wS1wQ\ wS1bQ\
+0 4 wG1. wQ-wG1 wA1wQ\ wA1\bG2
+0 4 wB1. wQ\wB1 wA1-wB1 wS1\wQ
+0 4 wG1. wQwG1\ wA1wQ- wA2wA1\
+0 4 wS1. wG1\wS1 wQ\wG1 wS2/wS1
+0 4 wG1. wA1wG1/ wQwG1- wA1-bQ
+0 4 wB1. wQ-wB1 wA1-wQ wS1wQ/
+0 4 wS1. wQwS1/ wA1wS1- wA1/bQ
+0 4 wG1. wQ\wG1 wA1wG1- wA1bA1\
+0 4 wS1. wQ-wS1 wA1-wQ wS2wQ/
+0 4 wG1. wQ\wG1 wA1wQ/ wA1bA1\
+0 4 wG1. wQ/wG1 wA1-wG1 wA1/bQ
+0 4 wG1. wS1wG1/ wQwG1- wS1\bQ
+0 4 wG1. wA1wG1/ wQ-wA1 wA1/bS1
+0 4 wG1. wQwG1\ wA1/wQ wA1\bA1
+0 4 wG1. wQwG1/ wS1-wQ wS1-bQ
+0 4 wG1. wA1\wG1 wQwA1- wA1bS1-
+0 4 wS1. wQwS1- wS2wS1\ wS2/bQ
+0 4 wG1. wA1\wG1 wQ/wG1 wA1bQ/
+0 4 wG1. wQ\wG1 wS1/wG1 wA1wS1\
+0 4 wG1. wQwG1/ wS1wG1\ wS1/bQ
+0 4 wG1. wQ\wG1 wB1/wG1 wA1\wQ
+0 4 wB1. wA1-wB1 wQwA1/ wA2wA1\
+0 4 wG1. wQ/wG1 wA1-wQ wS1\wG1
+0 4 wG1. wQwG1\ wA1wQ\ wA1-bS1
+0 4 wG1. wA1/wG1 wQ\wG1 wA1bA1/
+0 4 wG1. wS1\wG1 wA1/wG1 wQ-wG1
+0 4 wS1. wA1\wS1 wQ/wS1 wA1bQ/
+0 4 wG1. wA1-wG1 wQwA1\ wA1bS1/
+0 4 wG1. wA1-wG1 wQwA1/ wA1\bQ
+0 4 wG1. wQ\wG1 wA1\wQ wA1bQ\
+0 4 wG1. wA1\wG1 wQ/wG1 wS1wA1/
+0 4 wG1. wA1-wG1 wQwA1\ wA1\bQ
+0 4 wG1. wA1wG1/ wQ-wA1 wA1-bG2
+0 4 wB1. wA1\wB1 wQwB1- wS1wQ-
+0 4 wG1. wA1wG1- wQwG1\ wA1bQ\
+0 4 wG1. wA1wG1/ wQ-wA1 wA2wG1-
+0 4 wG1. wQwG1/ wS1\wQ wA1wS1-
+0 4 wG1. wA1/wG1 wQwA1- wA1\bQ
+0 4 wG1. wA1wG1/ wQwG1- wA1\bQ
+0 4 wG1. wA1-wG1 wQwA1/ wA1bA1\
+0 4 wG1. wA1wG1- wQwG1\ wA1/bQ
+0 4 wG1. wQwG1\ wA1wQ- wS1wG1/
+0 4 wG1. wA1-wG1 wQwA1\ wA1bA1-
+0 4 wS1. wQwS1/ wS2wS1\ wS2/bQ
+0 4 wG1. wA1wG1/ wQwG1- wA1/bS1
+0 4 wG1. wQwG1\ wS1/wQ wS1/bQ
+0 4 wG1. wA1-wG1 wQwA1\ wA1bG1/
+0 4 wG1. wA1-wG1 wQwA1/ wA1bQ\
+0 4 wB1. wQ\wB1 wS1/wB1 wS1bQ\
+0 4 wB1. wQ-wB1 wA1wQ\ wA2wQ/
+0 4 wG1. wA1wG1/ wQwG1- wA1-bS1
+0 4 wG1. wA1-wG1 wQwA1\ wA1bS1\
+0 4 wB1. wA1-wB1 wQwA1/ wA1\bQ
+0 4 wG1. wQ/wG1 wA1\wG1 wA1bQ/
+0 4 wG1. wA1-wG1 wQwA1/ wA1bQ/
+0 4 wG1. wB1-wG1 wQ-wB1 wS1wB1/
+0 4 wS1. wG1-wS1 wQwG1\ wA1wG1/
+0 4 wG1. wQ\wG1 wS1\wQ wS1\bQ
+0 4 wG1. wA1-wG1 wQwA1\ wA1bQ/
+0 4 wG1. wQ-wG1 wS1wG1\ wS1bQ-
+0 4 wS1. wQ\wS1 wA1wQ- wA1-bQ
+0 4 wS1. wA1\wS1 wQ/wS1 wS2/wQ
+0 4 wG1. wA1/wG1 wQwA1- wA1bQ\
+0 4 wG1. wQ-wG1 wA1wQ/ wA1bG2\
+0 4 wG1. wQ-wG1 wA1wG1\ wA1bQ-
+0 4 wS1. wQ/wS1 wA1-wS1 wA1bQ\
+0 4 wG1. wQ/wG1 wS1wQ\ wS1bQ\

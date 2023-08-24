@@ -18,5 +18,5 @@ def akc(opening_book, board_state, move):
             if p == L and s == R:
                 return True
 opening_book = load_link_list_from_json("sfre.json")
-board_state = "wG1 ..."
-print(akc(opening_book, board_state, "-bG1"))
+board_state = "wS1..."
+print(akc(opening_book, board_state, "wA1wS1-"))

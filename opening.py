@@ -110,7 +110,6 @@ def flatten(lst):
     return result
 
 random.seed()
-
 sfre = odczytajSlowa(open("hive.txt", "r").readlines()) > (pipe
     | zbudujGraf
     | znajdz_kliki
@@ -123,7 +122,7 @@ for (L, R) in sfre:
     for u in L:
         for v in R:
             sfre_graph.add_edge(u, v)
-
+print()
 with open("sfre.json", 'w') as plik:
     sfre_graph_data = json_graph.node_link_data(sfre_graph)
     json.dump(sfre_graph_data, plik)

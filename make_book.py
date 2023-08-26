@@ -7,51 +7,49 @@ from pipetools import pipe
 import datetime
 import json
 
-def odczytajSlowa(lines):
+def read_words(lines):
     X = set()
     Y = set()
     for line in lines:
         r = parse("{flag} {length} {word}", line)
-        slowo = r['word']
+        word = r['word']
         if r['flag'] == '1':
-            if 'Q' in slowo:
-                slowo = slowo.replace('Q', 'Q1')
-                slowo = slowo.replace('.', '...')
-                X.add(slowo)
+            if 'Q' in word:
+                word = word.replace('Q', 'Q1')
+                word = word.replace('.', '...')
+                X.add(word)
         else:
-            if 'Q' in slowo:
-                slowo = slowo.replace('Q', 'Q1')
-                slowo = slowo.replace('.', '...')
-            Y.add(slowo)
+            if 'Q' in word:
+                word = word.replace('Q', 'Q1')
+                word = word.replace('.', '...')
+            Y.add(word)
     if not X.isdisjoint(Y):
         sys.exit()
     return (Y, X)
 
-def catenation(U, Y):
+def concatenation(U, Y):
     X = set()
     for u in U:
         for y in Y:
             X.add(u + y)
     return X
 
-def podzial_z_kliki(k):
+def split_from_clique(k):
     L = set()
-    P = set()
+    R = set()
     for (a, b) in k:
         L.add(a)
-        P.add(b)
-    return (L, P)
+        R.add(b)
+    return (L, R)
 
-def sfre_z_klik(kliki):
-    wynik = []
-    for i, k in enumerate(kliki):
-        (L, R) = podzial_z_kliki(k)
+def sfre_from_cliques(cliques):
+    result = []
+    for i, k in enumerate(cliques):
+        (L, R) = split_from_clique(k)
+        result.append((L, R))
+    return result
 
-        wynik.append((L, R))
-       
-    return wynik
-
-def zbudujGraf(S):
+def build_graph(S):
     Sm, Sp = S[0], S[1]
     V = []
     G = nx.Graph()
@@ -76,7 +74,7 @@ def N(G, S):
         s > pipe | G.neighbors | set | T.intersection_update
     return T - S
 
-def znajdz_kliki(G):
+def find_cliques(G):
     V = set(G.nodes())
     C = set()
     while C != V:
@@ -84,14 +82,13 @@ def znajdz_kliki(G):
         S = {v}
         while True:
             U = N(G, S)
-            if U :
+            if U:
                 v = random.choice(list(U))
                 S.add(v)
             else:
                 C.update(S)
                 yield S
                 break
-
 
 def accepts(e, x):
     for (p, s) in ((x[:i], x[i:]) for i in range(1, len(x))):
@@ -109,20 +106,22 @@ def flatten(lst):
             result.append(item)
     return result
 
-random.seed()
-sfre = odczytajSlowa(open("hive.txt", "r").readlines()) > (pipe
-    | zbudujGraf
-    | znajdz_kliki
-    | sfre_z_klik)
+def make_book():
+    random.seed()
+    sfre = read_words(open("hive.txt", "r").readlines()) > (pipe
+        | build_graph
+        | find_cliques
+        | sfre_from_cliques)
 
-sfre_graph = nx.Graph()
-for (L, R) in sfre:
-    sfre_graph.add_nodes_from(L)
-    sfre_graph.add_nodes_from(R)
-    for u in L:
-        for v in R:
-            sfre_graph.add_edge(u, v)
-print()
-with open("sfre.json", 'w') as plik:
-    sfre_graph_data = json_graph.node_link_data(sfre_graph)
-    json.dump(sfre_graph_data, plik)
+    sfre_graph = nx.Graph()
+    for (L, R) in sfre:
+        sfre_graph.add_nodes_from(L)
+        sfre_graph.add_nodes_from(R)
+        for u in L:
+            for v in R:
+                sfre_graph.add_edge(u, v)
+
+    with open("sfre.json", 'w') as file:
+        sfre_graph_data = json_graph.node_link_data(sfre_graph)
+        json.dump(sfre_graph_data, file)
+make_book()

@@ -210,9 +210,11 @@ def match(data, pmd=[]):
         
     if not data[pmd_mask[0]].empty:
         return data
-import numpy as np
 
 class LogParser:
+    """
+    A class for parsing and categorizing Hive game logs.
+    """
     def __init__(self, logs):
         self.logs = logs
 

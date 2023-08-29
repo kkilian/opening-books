@@ -8,7 +8,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from board import Hive, HiveView, HivePiece
+from hive import Hive, HiveView, HivePiece
 hive = Hive()
 hive.setup()
 view = HiveView(hive)

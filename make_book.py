@@ -106,9 +106,12 @@ def flatten(lst):
             result.append(item)
     return result
 
-def make_book():
+def make_book(player):
+    player = player
     random.seed()
-    sfre = read_words(open("hive.txt", "r").readlines()) > (pipe
+    filename = f"hive_{player}.txt"
+    
+    sfre = read_words(open(filename, "r").readlines()) > (pipe
         | build_graph
         | find_cliques
         | sfre_from_cliques)
@@ -120,8 +123,8 @@ def make_book():
         for u in L:
             for v in R:
                 sfre_graph.add_edge(u, v)
-
-    with open("sfre.json", 'w') as file:
+    book_name = f"book_{player}.json"
+    with open(book_name, 'w') as file:
         sfre_graph_data = json_graph.node_link_data(sfre_graph)
         json.dump(sfre_graph_data, file)
-make_book()
+

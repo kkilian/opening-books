@@ -1,129 +1,170 @@
-1 4 bG1. wG1-bG1 bA1bG1- wQ\wG1
-1 4 bG1. wB1bG1- bA1-bG1 wQwB1-
-1 4 bS1. wG1-bS1 bA1bS1- wQ/wG1
-1 4 bS1. wG1bS1- bQ/bS1 wQwG1\
-1 4 bG1. wG1bG1/ bA1/bG1 wG2wG1/
-1 4 bG1. wG1bG1- bA1-bG1 wQwG1-
-1 4 bG1. wG1/bG1 bQbG1- wQwG1\
-1 4 bG1. wB1bG1- bQ\bG1 wQwB1-
-1 4 bG1. wG1bG1\ bQ-bG1 wQ/wG1
-1 4 bG1. wG1bG1- bA1-bG1 wB1wG1-
-1 4 bB1. wG1\bB1 bQbB1- wQwG1/
-1 4 bG1. wB1bG1\ bQbG1/ wQwB1-
-1 4 bG1. wG1bG1- bG2-bG1 wA1wG1\
-1 4 bS1. wG1bS1/ bA1bS1\ wQwG1-
-1 4 bS1. wG1bS1\ bQ\bS1 wQ/wG1
-1 4 bG1. wA1bG1- bQ-bG1 wQwA1/
-1 4 bG1. wG1bG1- bA1-bG1 wS1wG1/
-1 4 bB1. wB1bB1- bA1/bB1 wQwB1/
-1 4 bG1. wG1bG1- bQ\bG1 wS1wG1/
-1 4 bG1. wG1bG1\ bQ\bG1 wQwG1-
-1 4 bG1. wG1bG1- bQ/bG1 wQwG1/
-1 4 bB1. wG1bB1- bQ/bB1 wQwG1\
-1 4 bG1. wG1bG1\ bA1bG1/ wQwG1-
-1 4 bG1. wS1bG1/ bA1/bG1 wQwS1-
-1 4 bG1. wG1bG1- bA1-bG1 wA1wG1/
-1 4 bB1. wG1bB1- bQ/bB1 wQwG1/
-1 4 bB1. wG1\bB1 bA1bB1\ wQwG1/
-1 4 bB1. wB1/bB1 bA1bB1/ wG1/wB1
-1 4 bS1. wQbS1- bQ-bS1 wG1wQ-
-1 4 bG1. wG1bG1/ bA1/bG1 wQwG1-
-1 4 bB1. wB1bB1/ bQ-bB1 wQ\wB1
-1 4 bB1. wG1bB1- bA1-bB1 wB1wG1-
-1 4 bS1. wB1bS1\ bQ\bS1 wQwB1-
-1 4 bG1. wG1bG1\ bQ-bG1 wQwG1-
-1 4 bB1. wG1-bB1 bA1bB1- wA1-wG1
-1 4 bG1. wG1bG1- bQ-bG1 wS1wG1/
-1 4 bG1. wG1bG1- bQ-bG1 wQwG1\
-1 4 bG1. wQbG1- bQ\bG1 wA1wQ\
-1 4 bG1. wS1bG1/ bA1/bG1 wQ\wS1
-1 4 bG1. wG1bG1\ bA1-bG1 wQ/wG1
-1 4 bG1. wB1bG1\ bA1\bG1 wQ/wB1
-1 4 bB1. wG1bB1- bA1-bB1 wG2wG1-
-1 4 bS1. wS1bS1\ bQ\bS1 wQwS1\
-1 4 bB1. wG1-bB1 bA1bB1/ wQ/wG1
-1 4 bG1. wG1-bG1 bQbG1- wQ/wG1
-1 4 bS1. wG1bS1/ bA1/bS1 wQwG1-
-1 4 bB1. wG1bB1- bQ\bB1 wQwG1\
-1 4 bG1. wG1/bG1 bA1bG1- wQ-wG1
-1 4 bG1. wB1bG1- bQ\bG1 wQwB1/
-0 4 bG1. wG1bG1- bA1-bG1 wA1wG1-
-0 4 bG1. wG1bG1\ bA1\bG1 wQ/wG1
-0 4 bG1. wG1-bG1 bS1bG1/ wQ/wG1
-0 4 bS1. wB1bS1- bA1\bS1 wQwB1/
-0 4 bS1. wG1-bS1 bA1bS1/ wQ\wG1
-0 4 bG1. wB1-bG1 bA1bG1- wQ\wB1
-0 4 bG1. wB1/bG1 bA1bG1/ wQ-wB1
-0 4 bG1. wB1bG1- bQ-bG1 wQwB1\
-0 4 bG1. wG1bG1- bQ/bG1 wQwG1\
-0 4 bS1. wG1bS1- bA1\bS1 wQwG1/
-0 4 bG1. wB1bG1- bQ-bG1 wQwB1/
-0 4 bG1. wG1bG1/ bQ-bG1 wQwG1-
-0 4 bG1. wG1bG1- bQ/bG1 wG2wG1-
-0 4 bG1. wG1/bG1 bQ\bG1 wQ-wG1
-0 4 bB1. wG1\bB1 bQbB1\ wQwG1/
-0 4 bS1. wB1bS1- bG1\bS1 wQwB1\
-0 4 bG1. wG1-bG1 bA1bG1- wQ/wG1
-0 4 bG1. wB1\bG1 bA1bG1\ wG1\wB1
-0 4 bG1. wG1bG1\ bQbG1/ wQ/wG1
-0 4 bS1. wG1bS1- bQ\bS1 wQwG1\
-0 4 bG1. wG1bG1/ bQbG1\ wQ\wG1
-0 4 bG1. wG1\bG1 bA1bG1\ wQwG1/
-0 4 bG1. wG1bG1- bS1\bG1 wQwG1\
-0 4 bS1. wG1-bS1 bQbS1- wQ/wG1
-0 4 bG1. wG1-bG1 bA1bG1- wS1\wG1
-0 4 bG1. wG1/bG1 bA1bG1/ wG2/wG1
-0 4 bG1. wG1bG1/ bA1/bG1 wQ\wG1
-0 4 bG1. wB1-bG1 bQbG1\ wQ/wB1
-0 4 bG1. wG1/bG1 bA1bG1/ wQwG1\
-0 4 bG1. wB1bG1- bQ\bG1 wQwB1\
-0 4 bS1. wG1/bS1 bQ\bS1 wQ-wG1
-0 4 bG1. wG1-bG1 bQbG1\ wQ/wG1
-0 4 bG1. wG1bG1- bA1/bG1 wQwG1\
-0 4 bG1. wB1bG1- bB1-bG1 wQwB1/
-0 4 bS1. wG1bS1- bG1\bS1 wQwG1/
-0 4 bS1. wB1bS1- bQ-bS1 wQwB1/
-0 4 bG1. wG1\bG1 bA1bG1\ wG2\wG1
-0 4 bS1. wG1bS1- bG1-bS1 wQwG1/
-0 4 bB1. wG1bB1- bQ-bB1 wQwG1/
-0 4 bG1. wB1-bG1 bA1bG1- wQ/wB1
-0 4 bG1. wB1bG1/ bA1/bG1 wG1wB1/
-0 4 bG1. wG1-bG1 bQbG1/ wQ/wG1
-0 4 bG1. wB1bG1- bA1\bG1 wQwB1/
-0 4 bS1. wG1bS1- bQ-bS1 wG2wG1-
-0 4 bG1. wG1bG1- bA1-bG1 wQwG1\
-0 4 bG1. wG1bG1- bQ\bG1 wQwG1\
-0 4 bG1. wG1bG1- bA1-bG1 wG2wG1-
-0 4 bB1. wB1bB1- bQ\bB1 wQwB1\
-0 4 bG1. wG1bG1- bA1-bG1 wQwG1/
-0 4 bB1. wB1bB1- bA1-bB1 wQwB1/
-0 4 bG1. wG1bG1- bQ\bG1 wG2wG1-
-0 4 bG1. wG1/bG1 bA1bG1/ wQ-wG1
-0 4 bG1. wG1bG1/ bQ-bG1 wQ\wG1
-0 4 bG1. wG1bG1- bQ\bG1 wQwG1/
-0 4 bG1. wG1-bG1 bA1bG1- wG2-wG1
-0 4 bS1. wB1bS1/ bQ/bS1 wQwB1-
-0 4 bG1. wG1bG1\ bA1\bG1 wQwG1-
-0 4 bG1. wG1bG1- bA1\bG1 wQwG1/
-0 4 bG1. wG1bG1\ bA1\bG1 wG2wG1\
-0 4 bG1. wG1-bG1 bQbG1\ wQ\wG1
-0 4 bG1. wB1/bG1 bA1bG1/ wQwB1\
-0 4 bS1. wG1/bS1 bA1\bS1 wQ-wG1
-0 4 bG1. wB1bG1- bQ/bG1 wQwB1\
-0 4 bG1. wG1bG1- bQ-bG1 wG2wG1-
-0 4 bS1. wG1-bS1 bQbS1/ wQ/wG1
-0 4 bB1. wG1bB1- bQ\bB1 wB1wG1-
-0 4 bG1. wG1bG1- bQ-bG1 wQwG1/
-0 4 bB1. wG1bB1- bA1-bB1 wQwG1\
-0 4 bB1. wG1/bB1 bA1\bB1 wQwG1\
-0 4 bB1. wG1bB1- bQ-bB1 wB1wG1-
-0 4 bG1. wG1/bG1 bS1bG1/ wQ-wG1
-0 4 bG1. wG1-bG1 bQbG1/ wQ\wG1
-0 4 bS1. wA1bS1\ bQ\bS1 wQwA1-
-0 4 bG1. wB1bG1/ bQbG1\ wQ\wB1
-0 4 bG1. wB1-bG1 bQbG1/ wQ/wB1
-0 4 bB1. wG1-bB1 bA1bB1- wQ/wG1
-0 4 bG1. wB1/bG1 bQbG1- wQwB1\
-0 4 bG1. wB1bG1- bA1-bG1 wQwB1/
-0 4 bG1. wB1bG1- bA1-bG1 wG1wB1-
-0 4 bG1. wB1bG1- bQ\bG1 wG1wB1-
+1 5 wG1. bG1wG1- wQ/wG1 bG2bG1- wA1\wG1
+1 5 wG1. bG1-wG1 wQwG1/ bQ\bG1 wS1\wQ
+1 5 wG1. bG1wG1- wQ/wG1 bQbG1\ wS1wQ\
+1 5 wG1. bB1/wG1 wQwG1- bQbB1\ wA1wG1/
+1 5 wG1. bG1/wG1 wS1wG1/ bQ-bG1 wQwG1-
+1 5 wS1. bG1wS1- wQ-wS1 bG2bG1- wA1/wQ
+1 5 wG1. bB1-wG1 wQwG1\ bQ/bB1 wA1wQ-
+1 5 wG1. bG1wG1- wQ\wG1 bQbG1/ wA1/wG1
+1 5 wS1. bG1wS1- wG1-wS1 bQbG1/ wQwG1\
+1 5 wS1. bG1wS1- wG1\wS1 bQbG1/ wQ-wG1
+1 5 wG1. bG1wG1\ wA1\wG1 bQ/bG1 wQwA1-
+1 5 wG1. bG1-wG1 wA1wG1- bS1\bG1 wQwG1\
+1 5 wS1. bB1wS1/ wQ/wS1 bQbB1- wA1-wS1
+1 5 wS1. bA1wS1\ wQ\wS1 bQbA1- wB1wQ-
+1 5 wG1. bG1-wG1 wS1wG1/ bQ/bG1 wQwG1-
+1 5 wB1. bG1wB1- wQ-wB1 bQbG1/ wA1wQ\
+1 5 wB1. bG1\wB1 wQwB1\ bQbG1/ wS1wB1-
+1 5 wG1. bB1wG1- wQ-wG1 bQbB1/ wA1wQ\
+1 5 wG1. bG1wG1- wQ\wG1 bQbG1/ wS1\wQ
+1 5 wG1. bG1wG1/ wQ-wG1 bQbG1- wA1wQ\
+1 5 wS1. bB1wS1- wA1\wS1 bQbB1/ wQ/wS1
+1 5 wB1. bG1/wB1 wA1\wB1 bQbG1\ wQwB1-
+1 5 wG1. bG1/wG1 wA1wG1/ bQbG1\ wQwG1-
+1 5 wG1. bG1\wG1 wA1wG1\ bQbG1/ wQ-wA1
+1 5 wG1. bB1/wG1 wA1wG1/ bQ-bB1 wQwG1-
+1 5 wG1. bB1-wG1 wQwG1/ bQ/bB1 wA1wG1\
+1 5 wG1. bB1wG1- wA1-wG1 bQbB1/ wQwA1\
+1 5 wS1. bG1-wS1 wQwS1- bQ/bG1 wS2wS1\
+1 5 wG1. bB1wG1- wB1-wG1 bQbB1/ wQ-wB1
+1 5 wG1. bB1wG1- wQ/wG1 bQbB1\ wA1-wG1
+1 5 wG1. bB1wG1- wQ\wG1 bG1bB1- wB1/wG1
+1 5 wS1. bG1/wS1 wA1\wS1 bQ-bG1 wQwA1-
+1 5 wS1. bG1wS1- wA1\wS1 bQbG1/ wQ/wS1
+1 5 wB1. bB1wB1- wA1-wB1 bQbB1/ wQwA1/
+1 5 wG1. bB1wG1- wQ-wG1 bQbB1\ wA1-wQ
+1 5 wG1. bG1wG1- wQ-wG1 bG2bG1- wA1wQ/
+1 5 wG1. bG1-wG1 wQwG1/ bQ/bG1 wS1wG1\
+1 5 wG1. bG1/wG1 wA1wG1/ bQ-bG1 wQwG1-
+1 5 wG1. bG1wG1/ wQwG1\ bQ\bG1 wA1-wG1
+1 5 wB1. bB1wB1- wQ\wB1 bQbB1\ wS1/wB1
+1 5 wG1. bG1wG1- wQ\wG1 bQbG1/ wS1/wG1
+1 5 wB1. bG1wB1- wQ-wB1 bB1bG1- wS1wQ\
+1 5 wS1. bG1wS1- wQ\wS1 bQbG1\ wA1/wS1
+1 5 wG1. bG1wG1/ wQ-wG1 bQbG1- wA1wG1\
+1 5 wG1. bG1wG1- wA1/wG1 bQbG1\ wQ\wG1
+1 5 wB1. bG1wB1- wQ\wB1 bB1bG1- wA1-wB1
+1 5 wG1. bB1-wG1 wA1wG1- bQ/bB1 wQwG1/
+1 5 wB1. bG1wB1- wQ-wB1 bQbG1/ wA1-wQ
+1 5 wG1. bG1wG1- wA1\wG1 bQbG1/ wQ/wG1
+1 5 wG1. bG1-wG1 wQwG1\ bQ\bG1 wA1wQ\
+1 5 wG1. bB1/wG1 wA1wG1/ bQbB1\ wQ-wA1
+1 5 wG1. bG1wG1/ wQ-wG1 bQbG1- wS1wG1\
+1 5 wS1. bG1-wS1 wQwS1/ bQ/bG1 wS2wS1\
+1 5 wG1. bG1-wG1 wQwG1\ bQ\bG1 wA1wQ-
+1 5 wG1. bB1wG1/ wA1/wG1 bG1bB1/ wQwA1-
+1 5 wG1. bB1wG1- wA1-wG1 bG1bB1- wQwA1\
+1 5 wS1. bB1wS1- wG1\wS1 bQbB1\ wQ\wG1
+1 5 wG1. bB1wG1/ wQwG1\ bQ\bB1 wS1-wG1
+1 5 wG1. bB1wG1- wQ\wG1 bQbB1\ wA1\wQ
+1 5 wS1. bB1wS1- wQ-wS1 bQbB1/ wA1-wQ
+1 5 wG1. bG1-wG1 wQwG1\ bQ/bG1 wS1/wQ
+1 5 wG1. bG1/wG1 wQ\wG1 bQ-bG1 wA1wG1-
+1 5 wS1. bG1-wS1 wQwS1/ bQ/bG1 wA1wS1-
+1 5 wG1. bB1wG1- wA1\wG1 bQbB1/ wQ-wG1
+1 5 wS1. bG1/wS1 wQ\wS1 bQ-bG1 wA1wQ-
+1 5 wG1. bG1wG1- wQ-wG1 bQbG1/ wS1\wQ
+1 5 wB1. bG1wB1- wA1-wB1 bQbG1\ wQwA1/
+1 5 wG1. bG1-wG1 wQwG1\ bQ/bG1 wA1/wQ
+1 5 wS1. bG1-wS1 wA1wS1/ bQ\bG1 wQwS1\
+1 5 wG1. bB1\wG1 wA1wG1\ bG1\bB1 wQwG1-
+1 5 wG1. bG1wG1- wQ/wG1 bQbG1\ wA1-wQ
+1 5 wG1. bG1wG1- wS1\wG1 bQbG1\ wA1/wG1
+1 5 wG1. bG1wG1\ wA1\wG1 bQbG1- wQwA1-
+1 5 wG1. bG1wG1- wA1-wG1 bQbG1\ wQwA1\
+1 5 wG1. bG1wG1\ wQwG1/ bQ/bG1 wS1-wQ
+1 5 wG1. bG1wG1\ wQwG1/ bQ/bG1 wS1-wG1
+1 5 wG1. bG1wG1- wQ/wG1 bQbG1\ wS1/wQ
+0 5 wG1. bB1wG1- wQ-wG1 bQbB1\ wA1wQ/
+0 5 wG1. bG1wG1- wQ\wG1 bQbG1\ wS1/wG1
+0 5 wG1. bB1/wG1 wA1wG1/ bQbB1\ wQwG1-
+0 5 wS1. bG1wS1/ wA1/wS1 bQbG1- wQ-wS1
+0 5 wG1. bG1wG1- wQ\wG1 bQbG1/ wA1wQ/
+0 5 wG1. bG1wG1/ wA1/wG1 bQ\bG1 wQwA1-
+0 5 wG1. bB1wG1- wQ\wG1 bQbB1- wS1wQ/
+0 5 wG1. bG1wG1\ wA1\wG1 bQbG1- wQ-wG1
+0 5 wG1. bG1wG1\ wA1wG1/ bQbG1- wQ-wG1
+0 5 wS1. bQwS1- wQ-wS1 bG1bQ- wA1wQ\
+0 5 wG1. bS1wG1/ wA1/wG1 bQbS1- wQ-wG1
+0 5 wG1. bG1wG1\ wQ-wG1 bQbG1- wS1wG1/
+0 5 wB1. bG1wB1- wQ\wB1 bQbG1\ wA1-wB1
+0 5 wG1. bG1wG1- wA1-wG1 bG2bG1- wQwA1\
+0 5 wG1. bG1wG1- wQ\wG1 bG2bG1- wA1-wQ
+0 5 wB1. bG1\wB1 wA1wB1\ bQbG1/ wQ-wA1
+0 5 wS1. bG1wS1\ wQ\wS1 bQ/bG1 wS2-wQ
+0 5 wS1. bG1wS1- wQ/wS1 bQbG1\ wA1-wS1
+0 5 wG1. bG1-wG1 wQwG1/ bQ/bG1 wA1wQ-
+0 5 wB1. bG1-wB1 wA1wB1- bA1-bG1 wQwB1/
+0 5 wG1. bG1\wG1 wA1wG1\ bG2\bG1 wQwG1-
+0 5 wS1. bG1-wS1 wA1wS1- bQ/bG1 wQwS1/
+0 5 wG1. bB1wG1- wQ\wG1 bQbB1/ wA1/wG1
+0 5 wG1. bB1-wG1 wA1wG1- bQ/bB1 wQwG1\
+0 5 wG1. bG1wG1- wA1-wG1 bS1bG1/ wQwA1/
+0 5 wG1. bB1wG1- wA1-wG1 bG1bB1- wQwA1/
+0 5 wG1. bG1/wG1 wA1wG1/ bG2/bG1 wQwG1-
+0 5 wG1. bG1wG1- wQ-wG1 bQbG1\ wS1wQ\
+0 5 wG1. bG1wG1- wQ\wG1 bG2bG1- wA1/wG1
+0 5 wG1. bG1wG1\ wQ\wG1 bQbG1- wS1wQ-
+0 5 wS1. bG1wS1/ wA1wS1\ bQbG1- wQ-wS1
+0 5 wB1. bG1-wB1 wA1wB1- bQ/bG1 wQwB1\
+0 5 wG1. bG1/wG1 wA1wG1- bQ-bG1 wQwG1/
+0 5 wG1. bG1wG1\ wA1\wG1 bG2bG1\ wQwA1-
+0 5 wG1. bG1wG1- wQ\wG1 bS1bG1/ wA1/wG1
+0 5 wG1. bB1wG1- wA1-wG1 bQbB1- wQwA1/
+0 5 wG1. bS1wG1/ wA1/wG1 bQ\bS1 wQwA1-
+0 5 wG1. bG1-wG1 wA1wG1- bQ\bG1 wQwG1\
+0 5 wB1. bG1\wB1 wQwB1- bQbG1/ wA1/wB1
+0 5 wG1. bG1-wG1 wQwG1/ bQ/bG1 wA1wG1\
+0 5 wG1. bB1wG1- wA1\wG1 bQbB1/ wQ/wG1
+0 5 wG1. bG1-wG1 wA1wG1- bG2-bG1 wQwG1\
+0 5 wG1. bA1wG1- wQ-wG1 bQbA1/ wS1\wQ
+0 5 wG1. bG1wG1/ wA1/wG1 bQbG1- wQ-wG1
+0 5 wG1. bG1wG1- wA1-wG1 bA1bG1/ wQwA1/
+0 5 wG1. bB1wG1\ wQwG1/ bQbB1- wA1\wQ
+0 5 wG1. bG1wG1- wS1\wG1 bQbG1\ wQ-wG1
+0 5 wS1. bB1wS1- wQ-wS1 bQbB1/ wA1\wQ
+0 5 wG1. bG1wG1- wA1-wG1 bQbG1/ wQwA1/
+0 5 wS1. bB1wS1\ wQ\wS1 bQbB1- wA1\wQ
+0 5 wG1. bG1wG1- wA1-wG1 bA1bG1- wQwA1/
+0 5 wB1. bB1/wB1 wA1wB1/ bG1/bB1 wQ-wA1
+0 5 wB1. bG1wB1- wA1-wB1 bG2bG1- wQwA1\
+0 5 wG1. bG1wG1- wQ\wG1 bQbG1\ wA1-wQ
+0 5 wG1. bG1wG1- wA1-wG1 bQbG1\ wQwA1/
+0 5 wG1. bG1-wG1 wA1wG1- bQ/bG1 wQwG1\
+0 5 wG1. bG1wG1- wQ/wG1 bQbG1\ wA1wQ\
+0 5 wG1. bG1wG1\ wA1-wG1 bQ/bG1 wQwG1/
+0 5 wB1. bG1wB1- wQ/wB1 bQbG1\ wA1\wB1
+0 5 wB1. bG1wB1- wA1-wB1 bB1bG1- wQwA1\
+0 5 wG1. bG1wG1- wQ-wG1 bQbG1/ wA1-wQ
+0 5 wG1. bG1wG1- wA1-wG1 bQbG1- wQwA1/
+0 5 wG1. bG1wG1- wQ-wG1 bQbG1/ wS1wQ/
+0 5 wB1. bB1wB1/ wQ-wB1 bQ\bB1 wA1\wQ
+0 5 wB1. bG1wB1- wQ\wB1 bQbG1\ wS1/wB1
+0 5 wG1. bB1-wG1 wA1wG1- bQ\bB1 wQwG1\
+0 5 wG1. bG1-wG1 wQwG1/ bQ\bG1 wA1wG1\
+0 5 wG1. bG1-wG1 wQwG1- bQ/bG1 wS1wG1\
+0 5 wG1. bG1wG1/ wQ-wG1 bQ\bG1 wS1\wQ
+0 5 wG1. bB1wG1- wQ\wG1 bQbB1/ wA1wQ/
+0 5 wG1. bG1-wG1 wA1wG1- bQ\bG1 wQwG1/
+0 5 wG1. bG1/wG1 wQwG1- bQbG1\ wS1wQ-
+0 5 wG1. bG1wG1- wG2-wG1 bA1bG1\ wQwG2\
+0 5 wG1. bG1wG1- wA1-wG1 bG2bG1- wQwA1/
+0 5 wG1. bG1wG1- wQ/wG1 bQbG1/ wA1\wG1
+0 5 wG1. bQwG1- wQ\wG1 bA1bQ\ wS1/wG1
+0 5 wG1. bG1-wG1 wA1wG1- bG2-bG1 wQwG1/
+0 5 wG1. bG1wG1- wQ-wG1 bQbG1/ wA1wQ\
+0 5 wB1. bG1wB1- wQ/wB1 bQbG1/ wQwB1\
+0 5 wG1. bG1wG1- wA1-wG1 bB1bG1- wQwA1/
+0 5 wG1. bB1wG1- wQ-wG1 bQbB1/ wA1\wQ
+0 5 wG1. bG1wG1\ wQ-wG1 bQbG1- wS1/wQ
+0 5 wG1. bG1/wG1 wA1wG1/ bQbG1\ wQ-wA1
+0 5 wG1. bG1-wG1 wA1wG1- bQ/bG1 wQwG1/
+0 5 wG1. bB1wG1\ wA1\wG1 bQ/bB1 wQwA1-
+0 5 wG1. bG1wG1- wA1-wG1 bQbG1/ wQwA1\
+0 5 wG1. bG1wG1/ wA1/wG1 bG2bG1/ wQwA1-
+0 5 wB1. bB1wB1- wA1/wB1 bQbB1/ wQ-wB1
+0 5 wG1. bG1wG1- wQ-wG1 bS1bG1/ wS1wQ/
+0 5 wG1. bG1wG1- wA1-wG1 bA1bG1- wQwA1\
+0 5 wS1. bS1wS1\ wQ\wS1 bQbS1\ wA1wQ/
+0 5 wG1. bG1wG1\ wQ-wG1 bQ/bG1 wA1\wQ
+0 5 wB1. bG1-wB1 wA1wB1/ bQ/bG1 wQwB1\

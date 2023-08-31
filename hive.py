@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class Board(object):
     """
     Class representing a game board.

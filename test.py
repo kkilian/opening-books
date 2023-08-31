@@ -1,39 +1,84 @@
 import json
+from make_opening import HiveOpeningBookGenerator
+from make_book import BookGenerator
 
-class OpeningBook:
-    def __init__(self, book_w_filename, book_b_filename):
-        self.opening_book_w = self.load_link_list_from_json(book_w_filename)
-        self.opening_book_b = self.load_link_list_from_json(book_b_filename)
 
-    @staticmethod
-    def load_link_list_from_json(json_filename):
-        with open(json_filename) as json_file:
-            data = json.load(json_file)
-        return data['links']
+"""opening_book_generator = HiveOpeningBookGenerator()
+opening_book_generator.make_opening(player="w", l=5,context=True)
+opening_book_generator.make_opening(player="b", l=5,context=True)
 
-    @staticmethod
-    def accept(opening_book, board_state, move):
-        board_state = board_state.split()
-        opening = board_state + [move]
-        for link in opening_book:
-            L = link['source']
-            R = link['target']
-            for i in range(1, len(opening) + 1):
-                p = ''.join(opening[:i])
-                s = ''.join(opening[i:])
-                if p == L and s == R:
-                    return True
+book_generator = BookGenerator()
+book_generator.make_book("w")
+book_generator.make_book("b")"""
 
-    def graj_niegraj(self, board_state):
-        for link in self.opening_book_w:
-            if link['source'] == board_state:
-                print(link['target'])
+
+def load_link_list_from_json(json_filename):
+    with open(json_filename) as json_file:
+        data = json.load(json_file)
+
+    return data['links']
+
+def accept(opening_book, board_state):
+    opening = board_state.split(' ')
+    accepted = []
+    for link in opening_book:
+        L = link['source'].split(' ')
+        R = link['target'].split(' ')
+
+
+        for i in range(1, len(opening) + 1):
+            p = opening[:i]
+            s = opening[i:]
+            print(L, p)
+            if p == L and s == R:  
+                accepted.append(R)
+
+            if len(accepted) != 0:    
+                return True, accepted
+
+    return False, None
+
+
+
+def graj_niegraj(opening_book_w, opening_book_b, board_state, player):
+    if player == "w":
+        books_to_search = [opening_book_w, opening_book_b]
+    else:
+        books_to_search = [opening_book_b, opening_book_w]
+
+    for book_index, book in enumerate(books_to_search):
+        accepted, target_move = accept(book, board_state)
+        if accepted:
+            if book_index == 0:  
+                print("Move accepted in the first opening book. Winning moves:", target_move)
+                return target_move
+            else:
+                print("Move accepted in the second opening book. Loosing moves:", target_move)
+                return target_move  # Remove this line if you don't want to return on second book match
+    return None  # Move was not accepted in any of the opening books
+            
+
+
+
         
-        for link in self.opening_book_b:
-            if link['source'] == board_state:
-                print(link['target'])
 
-if __name__ == "__main__":
-    opening_book = OpeningBook("book_w.json", "book_b.json")
-    board_state = "wS1..."
-    opening_book.graj_niegraj(board_state)
+opening_book_w = load_link_list_from_json("book_w.json")
+opening_book_b = load_link_list_from_json("book_b.json")
+
+board_state = "wG1... bG1wG1- wA1-wG1"
+
+print(graj_niegraj(opening_book_w, opening_book_b, board_state, "w"))
+
+
+transformed_dict = {}
+
+for link in opening_book_w:
+    source = link['source']
+    target = link['target']
+    
+    # Skip empty target values
+    if target:
+        transformed_dict[source] = target
+
+# Print the transformed dictionary
+print(json.dumps(transformed_dict, indent=4))

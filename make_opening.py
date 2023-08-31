@@ -48,41 +48,51 @@ class HiveOpeningBookGenerator:
     def analyze_data(self, positive_keys, negative_keys, l, n=10000, player="w", context=False):
         positive_set = set()
         negative_set = set()
-        if context:
-            for key in positive_keys:
-                words = self.extract_words_context(self.logs, key)
-                positive_set.add(tuple(words[:])[:l])  
-            for key in negative_keys:
-                words = self.extract_words_context(self.logs, key)
-                negative_set.add(tuple(words[:])[:l])  
+
+        if player == "w":
+            
+            if context:
+                for key in positive_keys:
+                    words = self.extract_words_context(self.logs, key)
+                    positive_set.add(tuple(words[:])[:l])  
+                for key in negative_keys:
+                    words = self.extract_words_context(self.logs, key)
+                    negative_set.add(tuple(words[:])[:l])  
+            else:
+                for key in positive_keys:
+                    words = self.extract_words(self.logs, key)
+                    positive_set.add(tuple(words[::2])[:l])  
+                for key in negative_keys:
+                    words = self.extract_words(self.logs, key)
+                    negative_set.add(tuple(words[::2])[:l])  
         else:
-            for key in positive_keys:
-                words = self.extract_words(self.logs, key)
-                positive_set.add(tuple(words[::2])[:l])  
-            for key in negative_keys:
-                words = self.extract_words(self.logs, key)
-                negative_set.add(tuple(words[::2])[:l])  
+
+            if context:
+                for key in negative_keys:
+                    words = self.extract_words_context(self.logs, key)
+                    positive_set.add(tuple(words[:])[:l])  
+                for key in positive_keys:
+                    words = self.extract_words_context(self.logs, key)
+                    negative_set.add(tuple(words[:])[:l])  
+            else:
+                for key in negative_keys:
+                    words = self.extract_words(self.logs, key)
+                    positive_set.add(tuple(words[::2])[:l])  
+                for key in positive_keys:
+                    words = self.extract_words(self.logs, key)
+                    negative_set.add(tuple(words[::2])[:l])  
 
         neutral_set = positive_set & negative_set
         name = f"hive_{player}.txt" 
         with open(name, 'w') as final_output:
             for s in positive_set - neutral_set:
-                if player == "w":
-                    print(f"1 {l} %s" % ' '.join(s), file=final_output)
-                else:
-                    print(f"1 {l} %s" % self.reverse_sequence(' '.join(s)), file=final_output)
-
+                print(f"1 {l} %s" % ' '.join(s), file=final_output)
+      
             for s in negative_set | neutral_set:
-                if player == 'w':
-                    print(f"0 {l} %s" % ' '.join(s), file=final_output)
-                else:
-                    print(f"0 {l} %s" % self.reverse_sequence(' '.join(s)), file=final_output)
+                print(f"0 {l} %s" % ' '.join(s), file=final_output)
         return positive_set, negative_set
 
     def make_opening(self, player="w", l=4, context=False):
         self.analyze_data(self.white_keys, self.black_keys, l, player=player, context=context)
 
-if __name__ == "__main__":
-    opening_book_generator = HiveOpeningBookGenerator()
-    opening_book_generator.make_opening(player="w", context=True)
-    opening_book_generator.make_opening(player="b", context=True)
+

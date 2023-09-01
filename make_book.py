@@ -132,8 +132,11 @@ class BookGenerator:
                     self.sfre_graph.add_edge(u, v)
         book_name = f"book_{player}.json"
         with open(book_name, 'w') as file:
+            source_target = {}
             sfre_graph_data = json_graph.node_link_data(self.sfre_graph)
-            json.dump(sfre_graph_data, file)
-
+            for n, link in enumerate( sfre_graph_data['nodes']):
+                source_target[link['id']] = n
+            json.dump(source_target, file)
 book_generator = BookGenerator()
 book_generator.make_book("w")
+

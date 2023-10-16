@@ -10,9 +10,10 @@ opening_book_generator.make_opening(player="b", l=2, context=True)
 book_generator = BookGenerator()
 book_generator.make_book(player="w")
 book_generator.make_book(player="b")
+"""
 opening_book_w, opening_book_b = load_link_list_from_json("book_w.json"), load_link_list_from_json("book_b.json")
 
-"""
+
 board_state1 = "wG1..."
 board_state2 = "wG1... bG1"
 

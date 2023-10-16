@@ -54,7 +54,7 @@ class BookGenerator:
     def sfre_from_cliques(self, cliques):
         result = []
         for i, k in enumerate(cliques):
-            (L, R) = self.split_from_clique(k)  # Use self.split_from_clique
+            (L, R) = self.split_from_clique(k)  
             result.append((L, R))
         return result
 
@@ -92,7 +92,7 @@ class BookGenerator:
             v = random.choice(list(V - C))
             S = {v}
             while True:
-                U = self.N(G, S)  # Use self.N to reference the method from within the class
+                U = self.N(G, S)  
                 if U:
                     v = random.choice(list(U))
                     S.add(v)
@@ -137,6 +137,5 @@ class BookGenerator:
             for n, link in enumerate( sfre_graph_data['nodes']):
                 source_target[link['id']] = n
             json.dump(source_target, file)
-book_generator = BookGenerator()
-book_generator.make_book("w")
+
 

@@ -1,8 +1,8 @@
 import random
 import numpy as np
-from hive_log_processing import get_logs, parse_logs, clean_data, LogParser
+from Util import get_logs, parse_logs, clean_data, LogParser
 
-class HiveOpeningBookGenerator:
+class OpeningGenerator:
     def __init__(self):
         self.logs = parse_logs(get_logs())
         self.log_parser = LogParser(self.logs)

@@ -1,5 +1,6 @@
 import numpy as np
 import requests
+import json
 import itertools
 import os
 import glob
@@ -22,9 +23,9 @@ def get_logs():
     
     owner = "kkilian"
     repo = "hive_data"
-    path = "Strong Players Only"
+    path = "pros_only"
     
-    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}"
+    url = f"https://api.github.com/repos/kkilian/hive_data/contents/pros_only"
     
     # Fetch the file list from the repository
     response = requests.get(url)
@@ -33,7 +34,7 @@ def get_logs():
             files = response.json()
             for file in files:
                 filename = file['name']
-                if filename.endswith('.txt') and filename[0] == 'P':
+                if filename.endswith('.txt'):
                     logs[i] = filename
                     i += 1
         except ValueError as e:
@@ -45,20 +46,35 @@ def get_logs():
     
     return logs
 
+
+
 def parse_logs(logs):
     """
     Parse the logs stored in the dictionary and extract the log entries.
     """
     parsed_logs = {}
-    for file_number, filename in logs.items():
-        file_path = f"/Users/krzysztofkilian/Downloads/{filename}"  
-        with open(file_path, 'r') as f:
+    
+    base_url = "https://raw.githubusercontent.com/kkilian/hive_data/master/pros_only/"
+
+    for file_number, file_name in logs.items():
+        file_url = base_url + file_name
+        print(file_url, file_name)
+
+        # Fetch the file content
+        response = requests.get(file_url)
+        
+        if response.status_code == 200:
             parsed_entries = []
-            for line in f:
+            lines = response.text.split('\n')
+            for line in lines:
                 parts = line.strip().split(' ')
                 parsed_entries.append(parts)
             parsed_logs[file_number] = parsed_entries
+        else:
+            print(f"Failed to fetch file: {file_name}. Status code: {response.status_code}")
+    
     return parsed_logs
+
 
 def process_logs(logs, pmd = []):
     """
@@ -211,6 +227,45 @@ def match(data, pmd=[]):
     if not data[pmd_mask[0]].empty:
         return data
 
+def load_link_list_from_json(json_filename):
+    with open(json_filename) as json_file:
+        data = json.load(json_file)
+    return data
+
+def accept(opening_book, board_state):
+    opening = board_state.split(' ')
+    cd = {}
+
+    for L, R in opening_book.items():
+        L = L.split(' ')
+        for i in range(1, len(L) + 1):
+            p = L[:i]
+            s = L[i:]
+
+            if opening == p:
+                if len(s) > 0:  
+                    cd[s[0]] = opening[0]  
+
+    if len(cd) != 0:
+        return True, cd
+    else:
+        return False, None
+
+
+def graj_niegraj(opening_book_w, opening_book_b, board_state, player):
+    if player == "w":
+        books_to_search = [opening_book_w, opening_book_b]
+    else:
+        books_to_search = [opening_book_b, opening_book_w]
+
+    for book_index, book in enumerate(books_to_search):
+        accepted, target_move = accept(book, board_state)
+        if accepted:
+            if book_index == 0:  
+                return 1, target_move.keys()
+            else:
+                return 0, target_move.keys()  
+    return None 
 class LogParser:
     """
     A class for parsing and categorizing Hive game logs.
